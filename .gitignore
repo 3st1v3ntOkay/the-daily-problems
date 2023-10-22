@@ -1,13 +1,13 @@
-# https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
+#* https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 
-# Carpetas a ignorar
+#! Carpetas a ignorar
 adventJS21/
 adventJs22/
 greedy-algorithms/
 js/
 node_modules/
 
-# Archivos a ignorar
+#! Archivos a ignorar
 package.json
 vitest.config.ts
 yarn.lock
