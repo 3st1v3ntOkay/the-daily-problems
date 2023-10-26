@@ -7,7 +7,7 @@
     "start": "node server",
     "dev": "node --watch",
     "dev:advent22": "node --watch ./adventJs22/reto-23/23.mjs",
-    "leetcode:two-pointers:three-sum": "node --watch ./leetcode/two-pointers/three-sum.js"
+    "leetcode:two-pointers": "node --watch ./leetcode/two-pointers/container-w-most-water.js"
   },
   "license": "MIT",
   "devDependencies": {
