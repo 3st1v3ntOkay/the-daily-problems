@@ -8,6 +8,5 @@ js/
 node_modules/
 
 #! Archivos a ignorar
-package.json
 vitest.config.ts
 yarn.lock
