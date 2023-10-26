@@ -1,12 +1,12 @@
-#* https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
-
-#! Carpetas a ignorar
+# Other folders
 adventJS21/
 adventJs22/
 greedy-algorithms/
 js/
 node_modules/
 
-#! Archivos a ignorar
+# Vite
 vitest.config.ts
-yarn.lock
+
+# pnpm
+pnpm-lock.yaml
