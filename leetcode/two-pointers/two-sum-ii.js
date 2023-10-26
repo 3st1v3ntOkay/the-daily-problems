@@ -8,7 +8,6 @@ const twoSum = function (numbers, target) {
   let r = numbers.length - 1;
 
   while (l < r) {
-    console.log("in");
     let sum = numbers[l] + numbers[r];
 
     if (sum > target) r -= 1;
