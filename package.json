@@ -4,10 +4,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server",
-    "dev": "node --watch",
     "dev:advent22": "node --watch ./adventJs22/reto-23/23.mjs",
-    "leetcode:two-pointers": "node --watch ./leetcode/two-pointers/container-w-most-water.js"
+    "leetcode:two-pointers": "node --watch ./leetcode/two-pointers/container-w-most-water.js",
+    "leetcode:stack": "node --watch ./leetcode/stack/generate-parenthesis.js"
   },
   "license": "MIT",
   "devDependencies": {
