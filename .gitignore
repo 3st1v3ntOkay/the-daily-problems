@@ -4,9 +4,3 @@ adventJs22/
 greedy-algorithms/
 js/
 node_modules/
-
-# Vite
-vitest.config.ts
-
-# pnpm
-pnpm-lock.yaml
