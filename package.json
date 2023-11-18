@@ -6,7 +6,8 @@
   "scripts": {
     "dev:advent22": "node --watch ./adventJs22/reto-23/23.mjs",
     "leetcode:two-pointers": "node --watch ./leetcode/two-pointers/container-w-most-water.js",
-    "leetcode:stack": "node --watch ./leetcode/stack/generate-parenthesis.js"
+    "leetcode:stack": "node --watch ./leetcode/stack/car-fleet.js",
+    "leetcode:binary-search": "node --watch ./leetcode/binary-search/binary-search.js"
   },
   "license": "MIT",
   "devDependencies": {
