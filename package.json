@@ -7,8 +7,7 @@
     "dev:advent22": "node --watch --loader ts-node/esm ./adventJs22/reto-23/23.mjs",
     "leetcode:two-pointers": "node --watch --loader ts-node/esm ./leetcode/two-pointers/container-w-most-water.js",
     "leetcode:stack": "node --watch --loader ts-node/esm ./leetcode/stack/car-fleet.js",
-    "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/binary-search.js",
-    "typescript:warm-up": "node --watch --loader ts-node/esm ./typescript/warm-up/hello-world.ts"
+    "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/binary-search.js"
   },
   "license": "MIT",
   "devDependencies": {
