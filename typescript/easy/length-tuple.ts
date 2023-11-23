@@ -1,6 +1,5 @@
 type Length<T extends readonly any[]> = T["length"]
 
-/* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
 
 const tesla = ['tesla', 'model 3', 'model X', 'model Y'] as const
