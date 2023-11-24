@@ -1,2 +1,3 @@
-# Problemas de LeetCode resueltos
-Aqui estan mis respuestas a aalgunos problemas que se pueden encontrar en LeetCode
+# Problems
+
+Here you would be able to find problems I had solve with or without help and other interesting things.
