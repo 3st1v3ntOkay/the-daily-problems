@@ -6,5 +6,4 @@ js/
 node_modules/
 
 # Typescript things
-typescript/matt-popcock/**/*.ts
-typescript/matt-popcock/**/*.tsx
+typescript/matt-popcock/notes-2/*.ts
