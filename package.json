@@ -7,7 +7,7 @@
     "dev:advent22": "node --watch --loader ts-node/esm ./adventJs22/reto-23/23.mjs",
     "leetcode:two-pointers": "node --watch --loader ts-node/esm ./leetcode/two-pointers/container-w-most-water.js",
     "leetcode:stack": "node --watch --loader ts-node/esm ./leetcode/stack/car-fleet.js",
-    "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/koko-eating-bananas.js"
+    "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/find-min-rotated-sirted-array.js"
   },
   "license": "MIT",
   "devDependencies": {
