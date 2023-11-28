@@ -1,4 +1,7 @@
-type MyPick<T, K extends keyof T> = {
+type MyPick<
+  T extends Record<string, any>,
+  K extends keyof T
+> = {
   [key in K]: T[key]
 }
 
