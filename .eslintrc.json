@@ -1,5 +1,9 @@
 {
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest"
   },
@@ -11,5 +15,7 @@
   "rules": {
     // https://eslint.org/docs/latest/rules/no-unused-vars
     "no-unused-vars": "off"
-  }
+  },
+  "plugins": ["@typescript-eslint"],
+  "root": true
 }
