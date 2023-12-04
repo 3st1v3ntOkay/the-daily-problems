@@ -7,7 +7,8 @@
     "dev:advent22": "node --watch --loader ts-node/esm ./adventJs22/reto-23/23.mjs",
     "leetcode:two-pointers": "node --watch --loader ts-node/esm ./leetcode/two-pointers/container-w-most-water.js",
     "leetcode:stack": "node --watch --loader ts-node/esm ./leetcode/stack/car-fleet.js",
-    "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/time-based-key-value-store.js"
+    "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/time-based-key-value-store.js",
+    "leetcode:sliding-window": "node --watch --loader ts-node/esm ./leetcode/sliding-window/longest-substring-without-repeating-characters.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -19,13 +20,13 @@
     "@babel/preset-typescript": "7.23.3",
     "@babel/template": "7.22.15",
     "@babel/types": "7.23.5",
-    "@typescript-eslint/eslint-plugin": "^6.13.1",
-    "@typescript-eslint/parser": "^6.13.1",
-    "@vitest/ui": "0.34.6",
-    "eslint": "8.54.0",
+    "@typescript-eslint/eslint-plugin": "6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "@vitest/ui": "1.0.1",
+    "eslint": "8.55.0",
     "ts-node": "10.9.1",
     "typescript": "5.3.2",
-    "vitest": "0.34.6"
+    "vitest": "1.0.1"
   },
   "dependencies": {
     "@babel/helper-compilation-targets": "7.22.15",
@@ -36,7 +37,7 @@
     "@babel/runtime": "7.23.5",
     "@babel/traverse": "7.23.5",
     "@type-challenges/utils": "0.1.1",
-    "@types/node": "20.10.1",
+    "@types/node": "20.10.3",
     "react": "18.2.0"
   }
 }
