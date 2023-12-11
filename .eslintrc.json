@@ -1,9 +1,9 @@
 {
   "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
+    "eslint:recommended"
+    // "plugin:@typescript-eslint/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
+  // "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest"
   },
@@ -14,14 +14,14 @@
   },
   "rules": {
     // https://eslint.org/docs/latest/rules/no-unused-vars
-    "no-unused-vars": "off",
+    "no-unused-vars": "off"
     // https://typescript-eslint.io/rules/no-unused-vars/
-    "@typescript-eslint/no-unused-vars": "off",
+    // "@typescript-eslint/no-unused-vars": "off",
     // https://typescript-eslint.io/rules/ban-types/
-    "@typescript-eslint/ban-types": "off",
+    // "@typescript-eslint/ban-types": "off",
     // https://typescript-eslint.io/rules/no-explicit-any/
-    "@typescript-eslint/no-explicit-any": "off"
-  },
-  "plugins": ["@typescript-eslint"],
-  "root": true
+    // "@typescript-eslint/no-explicit-any": "off"
+  }
+  // "plugins": ["@typescript-eslint"],
+  // "root": true
 }
