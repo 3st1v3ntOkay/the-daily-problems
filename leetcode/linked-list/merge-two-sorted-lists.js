@@ -19,7 +19,9 @@ function ListNodeFunc(val, next) {
 const mergeTwoLists = function(l1, l2) {
   // @ikboljonme: https://leetcode.com/problems/merge-two-sorted-lists/solutions/3353373/javascript-easy-explanation-100-for-loop/
 
+  // One interesting fact is that if you mix ListNodeClass or ListNodeFunc it works together 
   let tempNode = new ListNodeClass(0, null);
+  // let tempNode = new ListNodeFunc(0, null);
   let currentNode = tempNode;
   
   while (l1 && l2) {
