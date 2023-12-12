@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 class ListNode {
   constructor(val, next) {
     this.val = (val === undefined ? 0 : val);
@@ -10,7 +13,6 @@ class ListNode {
  * @return {ListNode}
  */
 const reverseList = function(head) {
-  // https://leetcode.com/problems/reverse-linked-list/solutions/4346121/simple-solution-using-stack/
   let stack = [];
 
   while (head != null) {
@@ -33,25 +35,23 @@ const reverseList = function(head) {
     }
   }
   
-  console.log(newList);
   return newList;
 };
 
+const a = new ListNode(1);
+const b = new ListNode(2);
+const c = new ListNode(3);
+const d = new ListNode(4);
+const e = new ListNode(5);
 
+a.next = b;
+b.next = c;
+c.next = d;
+d.next = e;
 
-const head = new ListNode(
-    1, new ListNode(
-      2, new ListNode(
-        3, new ListNode(
-          4, new ListNode(
-            5
-          )
-        )
-      )
-    )
-  );
+const head = a;
 
-reverseList(head)
+reverseList(head);
 
 /**
  * @param {ListNode} head

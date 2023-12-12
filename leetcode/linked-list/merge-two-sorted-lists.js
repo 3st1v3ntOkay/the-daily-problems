@@ -1,14 +1,11 @@
-// This is a way to make a linked list on javascript according to me
-class ListNodeClass {
+/**
+ * 
+ */
+class ListNode {
   constructor(val, next) {
     this.val = (val === undefined ? 0 : val);
     this.next = (next === undefined ? null : next);
   }
-}
-
-function ListNodeFunc(val, next) {
-  this.val = (val === undefined ? 0 : val);
-  this.next = (next === undefined ? null : next);
 }
 
 /**
@@ -17,11 +14,7 @@ function ListNodeFunc(val, next) {
  * @return {ListNode}
  */
 const mergeTwoLists = function(l1, l2) {
-  // @ikboljonme: https://leetcode.com/problems/merge-two-sorted-lists/solutions/3353373/javascript-easy-explanation-100-for-loop/
-
-  // One interesting fact is that if you mix ListNodeClass or ListNodeFunc it works together 
-  let tempNode = new ListNodeClass(0, null);
-  // let tempNode = new ListNodeFunc(0, null);
+  let tempNode = new ListNode(0, null);
   let currentNode = tempNode;
   
   while (l1 && l2) {
@@ -38,15 +31,24 @@ const mergeTwoLists = function(l1, l2) {
   }
   
   currentNode.next = l1 || l2;
-  
-  console.log(tempNode.next)
   return tempNode.next;
 };
 
-// I discovered that this is a way to create a linked list, I made the mistake to put it as it works like a array xD
-const list1 =
-    new ListNodeClass(1, new ListNodeClass(2, new ListNodeClass(4))),
-  list2 = 
-    new ListNodeClass(1, new ListNodeClass(3, new ListNodeClass(4)));
+const a = new ListNode(1);
+const b = new ListNode(2);
+const c = new ListNode(4);
+
+a.next = b;
+b.next = c;
+
+const d = new ListNode(1);
+const e = new ListNode(2);
+const f = new ListNode(4);
+
+d.next = e;
+e.next = f;
+
+const list1 = a,
+  list2 = d;
 
 mergeTwoLists(list1, list2);
