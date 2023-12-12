@@ -28,7 +28,7 @@
   c.next = a; // a way to make a loop
 ```
 
-## 206. Reverse Linked List
+## Reverse Linked List
 
 > [!NOTE]
 > [Challenge](https://leetcode.com/problems/reverse-linked-list/)
@@ -37,7 +37,7 @@
 
 - [@JangirSumit](https://leetcode.com/problems/reverse-linked-list/solutions/4346121/simple-solution-using-stack/)
 
-## 21. Merge Two Sorted Lists
+## Merge Two Sorted Lists
 
 > [!NOTE]
 > [Challenge](https://leetcode.com/problems/merge-two-sorted-lists/)
@@ -46,7 +46,7 @@
 
 - [@ikboljonme](https://leetcode.com/problems/merge-two-sorted-lists/solutions/3353373/javascript-easy-explanation-100-for-loop/)
 
-## 141. Linked List Cycle
+## Linked List Cycle
 
 > [!NOTE]
 > [Challenge](https://leetcode.com/problems/linked-list-cycle/)
