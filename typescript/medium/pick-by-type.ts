@@ -8,7 +8,7 @@ type myPickByType<
     : never
   }
 
-// @Roka20012: https://github.com/type-challenges/type-challenges/issues/2768
+// @Roka20012
 type PickByType<
   T extends Record<string, any>,
   U extends any
