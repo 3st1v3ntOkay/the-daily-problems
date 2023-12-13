@@ -14,7 +14,7 @@ type myStartsWith<
   : true
   : false
 
-// how I forgot this hack, @jiangshanmeta: https://github.com/type-challenges/type-challenges/issues/2690
+// how I forgot this hack, thanks @jiangshanmeta
 type StartsWith<
   T extends string,
   U extends string
