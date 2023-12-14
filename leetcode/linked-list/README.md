@@ -69,3 +69,11 @@
 
 > [!NOTE]
 > [Challenge](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
+
+**Useful**:
+
+- [Deep copy](https://en.wikipedia.org/wiki/Object_copying#Deep_copy)
+
+**Help**:
+
+- [@vanAmsen](https://leetcode.com/problems/copy-list-with-random-pointer/solutions/4003262/97-92-hash-table-linked-list/)
