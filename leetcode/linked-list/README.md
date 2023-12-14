@@ -51,6 +51,21 @@
 > [!NOTE]
 > [Challenge](https://leetcode.com/problems/linked-list-cycle/)
 
+## Reorder List
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/reorder-list/)
+
 **Help:**
 
-- NA
+- [Barbariansyah](https://leetcode.com/problems/reorder-list/solutions/1734333/3-step-space-efficient-javascript-solution/)
+
+## Remove Nth Node From End of List
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+## Copy List with Random Pointer
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
