@@ -67,3 +67,31 @@ Working on the description ...
 **Help:**
 
 - [@stevenaces](https://github.com/type-challenges/type-challenges/issues/14052#issuecomment-1586066829) - check the other solutions, there are some very interesting ones
+
+## Shift
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/03062-medium-shift/README.md)
+
+## Tuple to Nested Object
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/03188-medium-tuple-to-nested-object/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/3282)
+
+## Reverse
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/03192-medium-reverse/README.md)
+
+## Flip Arguments
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/03196-medium-flip-arguments/README.md)
+
+**Help:**
+
+- [@389103326](https://github.com/type-challenges/type-challenges/issues/6735)
