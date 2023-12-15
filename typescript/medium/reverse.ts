@@ -1,4 +1,4 @@
-type Reverse<T extends any[]> =
+export type Reverse<T extends any[]> =
   T extends [...infer left, infer right]
   ? [right, ...Reverse<left>]
   : T;
