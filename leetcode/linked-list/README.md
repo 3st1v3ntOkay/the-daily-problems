@@ -77,3 +77,32 @@
 **Help**:
 
 - [@vanAmsen](https://leetcode.com/problems/copy-list-with-random-pointer/solutions/4003262/97-92-hash-table-linked-list/)
+
+## Add Two Numbers
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/add-two-numbers/description/)
+
+**Help**:
+
+- [@vanAmsen](https://leetcode.com/problems/add-two-numbers/solutions/4091359/100-beats-java-c-python-javascript-c-php/)
+
+## Find The Duplicate Number
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/find-the-duplicate-number/)
+
+**Help**:
+
+- [@vanAmsen](https://leetcode.com/problems/find-the-duplicate-number/solutions/4062141/97-77-6-approaches-set-count-binary-search-fast-slow-mark-sort/)
+
+## LRU Cache
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/lru-cache/)
+
+**Help**:
+
+- [@Hongbo-Miao](https://leetcode.com/problems/lru-cache/solutions/399146/clean-javascript-solution/) - no so good
+
+- [@EduAir](https://leetcode.com/problems/lru-cache/solutions/4226556/javascript-lru-two-linked-lists/)
