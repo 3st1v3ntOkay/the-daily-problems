@@ -9,7 +9,8 @@
     "leetcode:stack": "node --watch --loader ts-node/esm ./leetcode/stack/car-fleet.js",
     "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/time-based-key-value-store.js",
     "leetcode:sliding-window": "node --watch --loader ts-node/esm ./leetcode/sliding-window/permutation-string.js",
-    "leetcode:linked-list": "node --watch --loader ts-node/esm ./leetcode/linked-list/linked-list-cycle.js"
+    "leetcode:linked-list": "node --watch --loader ts-node/esm ./leetcode/linked-list/lru-cache.js",
+    "leetcode:tree": "node --watch --loader ts-node/esm ./leetcode/trees/invert-binary-tree.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -33,7 +34,7 @@
     "@typescript-eslint/eslint-plugin": "6.14.0",
     "@typescript-eslint/parser": "6.14.0",
     "@vitest/ui": "1.0.4",
-    "eslint": "8.55.0",
+    "eslint": "8.56.0",
     "react": "18.2.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.3",
