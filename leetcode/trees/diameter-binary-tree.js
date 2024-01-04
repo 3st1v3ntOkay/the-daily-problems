@@ -1,6 +1,5 @@
 import { TreeNode } from "./tree";
 
-
 /**
  * @param {TreeNode} root
  * @return {number}
