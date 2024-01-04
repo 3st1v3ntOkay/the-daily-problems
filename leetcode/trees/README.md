@@ -30,3 +30,18 @@ Working on the description ...
 
 > [!NOTE]
 > [Challenge](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+## Balanced Tree
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/balanced-binary-tree/)
+
+## Same Tree
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/same-tree/)
+
+## Subtree of Another Tree
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/subtree-of-another-tree/description/)
