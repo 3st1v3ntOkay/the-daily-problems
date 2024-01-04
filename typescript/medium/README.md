@@ -155,3 +155,36 @@ Working on the description ...
 **Help:**
 
 - [@sugoroku-y](https://github.com/type-challenges/type-challenges/issues/5339)
+
+## Greater Than
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/04425-medium-greater-than/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14098)
+
+- [@clf17222592](https://github.com/type-challenges/type-challenges/issues/14098#issuecomment-1565168052)
+
+## Zip
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/04471-medium-zip/README.md)
+
+**Help:**
+
+- [@DevilTea](https://github.com/type-challenges/type-challenges/issues/5619)
+
+- [@ch3cknull](https://github.com/type-challenges/type-challenges/issues/4495)
+
+## IsTuple
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/04484-medium-istuple/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/4491)
+
+- [@Lionad-Morotar](https://github.com/type-challenges/type-challenges/issues/4491#issuecomment-1102961121)
