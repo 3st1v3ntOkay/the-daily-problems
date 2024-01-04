@@ -14,7 +14,7 @@ const isBalanced = function(root) {
       right = dfs(root.right);
     
     // help here from @NeetCode
-    let balance = left[0] && right[0] && Math.abs(left[1] - right[1]) <= 1;
+    let balance = left[0] && right[0] && (Math.abs(left[1] - right[1]) <= 1);
 
     return [balance, 1 + Math.max(left[1], right[1])];
   }
