@@ -188,3 +188,30 @@ Working on the description ...
 - [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/4491)
 
 - [@Lionad-Morotar](https://github.com/type-challenges/type-challenges/issues/4491#issuecomment-1102961121)
+
+## Chunk
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/04499-medium-chunk/README.md)
+
+**Help:**
+
+- [@ch3cknull](https://github.com/type-challenges/type-challenges/issues/4513)
+
+## Fill
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/04499-medium-chunk/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14102)
+
+## Trim Right
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/04803-medium-trim-right/README.md)
+
+**Help:**
+
+- [@teamchong](https://github.com/type-challenges/type-challenges/issues/11866)
