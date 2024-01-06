@@ -215,3 +215,32 @@ Working on the description ...
 **Help:**
 
 - [@teamchong](https://github.com/type-challenges/type-challenges/issues/11866)
+
+## Without
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05117-medium-without/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14118)
+
+## Trunc
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05140-medium-trunc/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14121)
+
+## IndexOf
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05153-medium-indexof/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/11945)
+
+- [@WangZiChu199910252255](https://github.com/type-challenges/type-challenges/issues/11945#issuecomment-1525037206)
