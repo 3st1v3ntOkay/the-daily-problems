@@ -18,16 +18,6 @@ const invertTree = function(root) {
   return root;
 };
 
-const root = new TreeNode(4);
-
-root.left = new TreeNode(2, 1, 3);
-root.right = new TreeNode(7, 6, 9);
-
-invertTree(root);
-
-const root2 = new TreeNode(2, 1, 3);
-invertTree(root2);
-
 // @user6845R
 const invertTree2 = function(root) {
   const debugMode = true;
@@ -69,3 +59,13 @@ const invertTree3 = function(root) {
   swap(root);
   return root;
 };
+
+const root = new TreeNode(4);
+
+root.left = new TreeNode(2, 1, 3);
+root.right = new TreeNode(7, 6, 9);
+
+invertTree(root);
+
+const root2 = new TreeNode(2, 1, 3);
+invertTree(root2);
