@@ -244,3 +244,30 @@ Working on the description ...
 - [@linjunc](https://github.com/type-challenges/type-challenges/issues/11945)
 
 - [@WangZiChu199910252255](https://github.com/type-challenges/type-challenges/issues/11945#issuecomment-1525037206)
+
+## Join
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05310-medium-join/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14125)
+
+## LastIndexOf
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05317-medium-lastindexof/README.md)
+
+**Help:**
+
+- [@WisestCoder](https://github.com/type-challenges/type-challenges/issues/5330#issuecomment-1506602140)
+
+## Unique
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05360-medium-unique/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14151)
