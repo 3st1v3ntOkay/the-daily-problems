@@ -10,7 +10,9 @@
     "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/time-based-key-value-store.js",
     "leetcode:sliding-window": "node --watch --loader ts-node/esm ./leetcode/sliding-window/permutation-string.js",
     "leetcode:linked-list": "node --watch --loader ts-node/esm ./leetcode/linked-list/lru-cache.js",
-    "leetcode:tree": "node --watch --loader ts-node/esm ./leetcode/trees/balanced-binary-tree.js"
+    "leetcode:tree": "node --watch --loader ts-node/esm ./leetcode/trees/balanced-binary-tree.js",
+    "test": "vitest",
+    "test:trees": "vitest ./leetcode/trees/tests"
   },
   "license": "MIT",
   "devDependencies": {
@@ -23,21 +25,21 @@
     "@babel/helper-module-imports": "7.22.15",
     "@babel/helper-validator-identifier": "7.22.20",
     "@babel/parser": "7.23.6",
-    "@babel/preset-env": "7.23.7",
+    "@babel/preset-env": "7.23.8",
     "@babel/preset-typescript": "7.23.3",
-    "@babel/runtime": "7.23.7",
+    "@babel/runtime": "7.23.8",
     "@babel/template": "7.22.15",
     "@babel/traverse": "7.23.7",
     "@babel/types": "7.23.6",
     "@type-challenges/utils": "0.1.1",
-    "@types/node": "20.10.6",
-    "@typescript-eslint/eslint-plugin": "6.18.0",
-    "@typescript-eslint/parser": "6.18.0",
-    "@vitest/ui": "1.1.3",
+    "@types/node": "20.11.5",
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "@typescript-eslint/parser": "6.19.0",
+    "@vitest/ui": "1.2.1",
     "eslint": "8.56.0",
     "react": "18.2.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.3",
-    "vitest": "1.1.3"
+    "vitest": "1.2.1"
   }
 }
