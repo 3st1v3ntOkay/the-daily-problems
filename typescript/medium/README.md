@@ -271,3 +271,97 @@ Working on the description ...
 **Help:**
 
 - [@linjunc](https://github.com/type-challenges/type-challenges/issues/14151)
+
+## MapTypes
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05821-medium-maptypes/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14152)
+
+## Construct Tuple
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05821-medium-maptypes/README.md)
+
+## Number Range
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/08640-medium-number-range/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14155)
+
+## Combination
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/08767-medium-combination/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14157)
+
+- [@Alexsey](https://github.com/type-challenges/type-challenges/issues/11027)
+
+## Subsequence
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/08987-medium-subsequence/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/8995)
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/14159)
+
+## CheckRepeatedChars
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09142-medium-checkrepeatedchars/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28150)
+
+## FirstUniqueCharIndex
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09286-medium-firstuniquecharindex/README.md)
+
+**Help:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/28344)
+
+- [@santosmarco](https://github.com/type-challenges/type-challenges/issues/20488)
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28151)
+
+## Parse URL Params
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09616-medium-parse-url-params/README.md)
+
+**Help:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/29805)
+
+## GetMiddleElement
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09896-medium-get-middle-element/README.md)
+
+**Help:**
+
+- [@santosmarco-caribou](https://github.com/type-challenges/type-challenges/issues/18774)
+
+## Appear only once
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28152)
