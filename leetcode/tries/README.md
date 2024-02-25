@@ -13,6 +13,11 @@ Some things good to know before take any of the examples:
 
 - [The Trie Data Structure, Part 2 (search, delete)](https://www.youtube.com/watch?v=NDfAYZCHstI)
 
+## TODO
+
+- [ ] Check this entire documentation
+- [ ] Add typescript to javascript files
+
 ## Implement Trie (Prefix Tree)
 
 > [!NOTE]
