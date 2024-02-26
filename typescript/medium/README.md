@@ -1,5 +1,9 @@
 # My travel through medium level
 
+## YouTube playlists
+
+- [Type Challenges](https://www.youtube.com/playlist?list=PLOlZuxYbPik180vcJfsAM6xHYLVxrEgHC) by Michigan TypeScript
+
 Working on the description ...
 
 ## PickByType
@@ -119,7 +123,7 @@ Working on the description ...
 > [!NOTE]
 > [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/03326-medium-bem-style-string/README.md)
 
-**Interesting:**
+**Other solutions:**
 
 - [Distributive Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types)
 
@@ -365,3 +369,38 @@ Working on the description ...
 **Help:**
 
 - [@linjunc](https://github.com/type-challenges/type-challenges/issues/28152)
+
+## Count Element Number To Object (check it)
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu/README.md)
+
+**Help:**
+
+- [@HugeLetters](https://github.com/type-challenges/type-challenges/issues/29208)
+
+## Integer
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/10969-medium-integer/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28261)
+
+**Other solutions:**
+
+- [@santosmarco-caribou](https://github.com/type-challenges/type-challenges/issues/18773)
+
+## ToPrimitive
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/16259-medium-to-primitive/README.md)
+
+**Help:**
+
+- [@BOCbMOU](https://github.com/type-challenges/type-challenges/issues/22057)
+
+**Other solutions:**
+
+- [@santosmarco-caribou](https://github.com/type-challenges/type-challenges/issues/18771)
