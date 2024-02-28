@@ -404,3 +404,36 @@ Working on the description ...
 **Other solutions:**
 
 - [@santosmarco-caribou](https://github.com/type-challenges/type-challenges/issues/18771)
+
+## DeepMutable
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/17973-medium-deepmutable/README.md)
+
+**Other solutions:**
+
+- [@santosmarco-caribou](https://github.com/type-challenges/type-challenges/issues/18772)
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28340)
+
+## All
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/18142-medium-all/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28341)
+
+- [@studymachiney](https://github.com/type-challenges/type-challenges/issues/24745)
+
+- [@venusliang](https://github.com/type-challenges/type-challenges/issues/20895)
+
+## Filter
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/18220-medium-filter/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28342)
