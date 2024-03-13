@@ -437,3 +437,219 @@ Working on the description ...
 **Help:**
 
 - [@linjunc](https://github.com/type-challenges/type-challenges/issues/28342)
+
+## FindAll
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/21104-medium-findall/README.md)
+
+**Help:**
+
+- [@drylint](https://github.com/type-challenges/type-challenges/issues/32078)
+
+## Combination key type
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/21106-medium-zu-he-jian-lei-xing-combination-key-type/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28360)
+
+**Other solutions:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/28130)
+
+## Replace First
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/25170-medium-replace-first/README.md)
+
+**Other solutions:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28361)
+
+- [@E-uler](https://github.com/type-challenges/type-challenges/issues/25366)
+
+## Permutations of Tuple
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/21220-medium-permutations-of-tuple/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/29713)
+
+**Other solutions:**
+
+- [@Sun79](https://github.com/type-challenges/type-challenges/issues/29657)
+
+- [@tarotlwei](https://github.com/type-challenges/type-challenges/issues/31765)
+
+## Transpose
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/25270-medium-transpose/README.md)
+
+**Help:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28364)
+
+**Other solutions:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/25297)
+
+## JSON Schema to TypeScript
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/26401-medium-json-schema-to-typescript/README.md)
+
+**Help:**
+
+- [@Minato1123](https://github.com/type-challenges/type-challenges/issues/27203)
+
+**Other solutions:**
+
+- [@Sun79](https://github.com/type-challenges/type-challenges/issues/26466)
+
+- [@JohnLi1999](https://github.com/type-challenges/type-challenges/issues/26864)
+
+## Square
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/27133-medium-square/README.md)
+
+**Help:**
+
+- [@JavanShen](https://github.com/type-challenges/type-challenges/issues/28008)
+
+**Other solutions:**
+
+- [@HugeLetters](https://github.com/type-challenges/type-challenges/issues/29275)
+
+- [@oathompsonjones](https://github.com/type-challenges/type-challenges/issues/30300)
+
+## Triangular number
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/27152-medium-triangular-number/README.md)
+
+**Help:**
+
+- [@JavanShen](https://github.com/type-challenges/type-challenges/issues/28010)
+
+**Other solutions:**
+
+- [@linjunc](https://github.com/type-challenges/type-challenges/issues/28553)
+
+## CartesianProduct
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/27862-medium-cartesianproduct/README.md)
+
+**Help:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/28095)
+
+**Other solutions:**
+
+- [@JohnLi1999](https://github.com/type-challenges/type-challenges/issues/27941)
+
+- [@kerolossamir165](https://github.com/type-challenges/type-challenges/issues/30411)
+
+## MergeAll
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/27932-medium-mergeall/README.md)
+
+**Help:**
+
+- [@omittee](https://github.com/type-challenges/type-challenges/issues/27962)
+
+**Other solutions:**
+
+- [@Alexsey](https://github.com/type-challenges/type-challenges/issues/29394)
+
+## CheckRepeatedTuple
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/27958-medium-checkrepeatedtuple/README.md)
+
+## Public Type
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/28333-medium-public-type/README.md)
+
+**Help:**
+
+- [@E-uler](https://github.com/type-challenges/type-challenges/issues/28419)
+
+## ExtractToObject
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/29650-medium-extracttoobject/README.md)
+
+**Help:**
+
+- [@kerolossamir165](https://github.com/type-challenges/type-challenges/issues/29704)
+
+**Other solutions:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/29682)
+
+## Deep Omit
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/29785-medium-deep-omit/README.md)
+
+**Help:**
+
+- [@kerolossamir165](https://github.com/type-challenges/type-challenges/issues/29866)
+
+**Other solutions:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/29867)
+
+## IsOdd
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/30301-medium-isodd/README.md)
+
+**Help:**
+
+- [@omittee](https://github.com/type-challenges/type-challenges/issues/30334)
+
+**Other solutions:**
+
+- [@XkSuperCool](https://github.com/type-challenges/type-challenges/issues/30341)
+
+## Tower of hanoi
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/30430-medium-tower-of-hanoi/README.md)
+
+**Help:**
+
+- [@PassionZale](https://github.com/type-challenges/type-challenges/issues/32296)
+
+**Other solutions:**
+
+- [@leejaehyup](https://github.com/type-challenges/type-challenges/issues/30993)
+
+## Pascal's triangle
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/30958-medium-pascals-triangle/README.md)
+
+**Help:**
+
+- [@E-uler](https://github.com/type-challenges/type-challenges/issues/31541)
+
+## IsFixedStringLiteralType
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/30970-medium-shitariteraru/README.md)
+
+**Help:**
+
+- [@alexandroppolus](https://github.com/type-challenges/type-challenges/issues/31666)
