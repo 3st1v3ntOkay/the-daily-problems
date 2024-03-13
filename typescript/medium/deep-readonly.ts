@@ -1,21 +1,21 @@
-type DeepReadonly<T extends Record<string, any>> =
+type DeepReadonly<T extends Record<string, Primitive>> =
   keyof T extends never
-    ? T 
-    : keyof T extends Function
-      ? {
-        [key in keyof T]: T[key]
-      }
-      : {
-        readonly [key in keyof T]: DeepReadonly<T[key]>
-      }
-    
+  ? T
+  : keyof T extends Function
+  ? {
+    [key in keyof T]: T[key]
+  }
+  : {
+    readonly [key in keyof T]: DeepReadonly<T[key]>
+  }
 
-type ZheeengDeepReadonly<T extends Record<string, any>> = {
+
+type ZheeengDeepReadonly<T extends Record<string, Primitive>> = {
   readonly [key in keyof T]: T[key] extends Record<string, any>
-    ? T[key] extends Function
-      ? T[key]
-      : ZheeengDeepReadonly<T[key]>
-    : T[key]
+  ? T[key] extends Function
+  ? T[key]
+  : ZheeengDeepReadonly<T[key]>
+  : T[key]
 }
 
 /* _____________ Test Cases _____________ */
