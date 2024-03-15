@@ -38,3 +38,26 @@
 - [Type inference in conditional types](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types)
 
 - [Distributive Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types)
+
+## Get Required
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00057-hard-get-required/README.md)
+
+**Help:**
+
+- [@yizhiyuyou](https://github.com/type-challenges/type-challenges/issues/1841)
+
+## Get Optional
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00059-hard-get-optional/README.md)
+
+## Required Keys
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00089-hard-required-keys/README.md)
+
+**Help:**
+
+- [@abdurahmanus](https://github.com/type-challenges/type-challenges/issues/17098)
