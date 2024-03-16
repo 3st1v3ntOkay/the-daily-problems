@@ -61,3 +61,36 @@
 **Help:**
 
 - [@abdurahmanus](https://github.com/type-challenges/type-challenges/issues/17098)
+
+## Optional Keys
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00090-hard-optional-keys/README.md)
+
+## Capitalize Words
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00112-hard-capitalizewords/README.md)
+
+**Help:**
+
+- [@zhaoyao91](https://github.com/type-challenges/type-challenges/issues/20399)
+
+**Interesting Answers:**
+
+- [@Joyee691](https://github.com/type-challenges/type-challenges/issues/11221) - this just fails in cases where there were emojis
+
+## CamelCase
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00114-hard-camelcase/README.md)
+
+**Help:**
+
+- [@okatechnology](https://github.com/type-challenges/type-challenges/issues/360)
+
+- [@WisestCoder](https://github.com/type-challenges/type-challenges/issues/360#issuecomment-1515869502)
+
+**Interesting Answers:**
+
+- [@JavanShen](https://github.com/type-challenges/type-challenges/issues/29945)
