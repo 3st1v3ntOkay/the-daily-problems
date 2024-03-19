@@ -94,3 +94,42 @@
 **Interesting Answers:**
 
 - [@JavanShen](https://github.com/type-challenges/type-challenges/issues/29945)
+
+## C-printf Parser
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00147-hard-c-printf-parser/README.md)
+
+**Help:**
+
+- [@uid11](https://github.com/type-challenges/type-challenges/issues/370)
+
+**Interesting Answers:**
+
+- [@BangKk](https://github.com/type-challenges/type-challenges/issues/983)
+
+## Vue Basic Props
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00213-hard-vue-basic-props/README.md)
+
+**Help:**
+
+- [@uid11](https://github.com/type-challenges/type-challenges/issues/12600)
+
+**Interesting Answers:**
+
+- [@drylint](https://github.com/type-challenges/type-challenges/issues/23167)
+
+## IsAny
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00223-hard-isany/README.md)
+
+**Help:**
+
+- [@B2D1](https://github.com/type-challenges/type-challenges/issues/232)
+
+**Interesting Answers:**
+
+- [@pione30](https://github.com/type-challenges/type-challenges/issues/5794)
