@@ -133,3 +133,38 @@
 **Interesting Answers:**
 
 - [@pione30](https://github.com/type-challenges/type-challenges/issues/5794)
+
+## Typed Get
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00270-hard-typed-get/README.md)
+
+**Help:**
+
+- [@chbro](https://github.com/type-challenges/type-challenges/issues/368)
+
+**Interesting Answers:**
+
+- [@realamirhe](https://github.com/type-challenges/type-challenges/issues/368#issuecomment-1569765662)
+
+## String to Number
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00300-hard-string-to-number/README.md)
+
+**Help:**
+
+- [@jiaaoMario](https://github.com/type-challenges/type-challenges/issues/17355)
+
+**Interesting Answers:**
+
+- [@bre30kra69cs](https://github.com/type-challenges/type-challenges/issues/499)
+
+## Tuple Filter
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00399-hard-tuple-filter/README.md)
+
+**Interesting Answers:**
+
+- [@hiroyaiizuka](https://github.com/type-challenges/type-challenges/issues/451)
