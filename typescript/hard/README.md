@@ -168,3 +168,46 @@
 **Interesting Answers:**
 
 - [@hiroyaiizuka](https://github.com/type-challenges/type-challenges/issues/451)
+
+## Tuple to Enum Object
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00472-hard-tuple-to-enum-object/README.md)
+
+**Help:**
+
+- [@uid11](https://github.com/type-challenges/type-challenges/issues/492)
+
+**Interesting Answers:**
+
+- [@neilzhang618](https://github.com/type-challenges/type-challenges/issues/2570)
+
+## printf
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00545-hard-printf/README.md)
+
+**Help:**
+
+- [@myNameIsDu](https://github.com/type-challenges/type-challenges/issues/2830)
+
+**Interesting Answers:**
+
+- [@E-uler](https://github.com/type-challenges/type-challenges/issues/24858)
+
+## Deep object to unique
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00553-hard-deep-object-to-unique/README.md)
+
+**Help:**
+
+- [@zhaoyao91](https://github.com/type-challenges/type-challenges/issues/20863)
+
+**Interesting Answers:**
+
+- [@rattonlzh](https://github.com/type-challenges/type-challenges/issues/1163#issuecomment-1518920154)
+
+- [@uid11](https://github.com/type-challenges/type-challenges/issues/581)
+
+- [@suica](https://github.com/type-challenges/type-challenges/issues/689)
