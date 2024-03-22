@@ -211,3 +211,22 @@
 - [@uid11](https://github.com/type-challenges/type-challenges/issues/581)
 
 - [@suica](https://github.com/type-challenges/type-challenges/issues/689)
+
+## Length of String 2
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00651-hard-length-of-string-2/README.md)
+
+**Help:**
+
+- [@Codec-k](https://github.com/type-challenges/type-challenges/issues/3485#issuecomment-1931207113)
+
+## Union to Tuple
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00730-hard-union-to-tuple/README.md)
+
+## String Join
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00651-hard-length-of-string-2/README.md)
