@@ -226,7 +226,15 @@
 > [!NOTE]
 > [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00730-hard-union-to-tuple/README.md)
 
+**Help:**
+
+- [@uid11](https://github.com/type-challenges/type-challenges/issues/737)
+
 ## String Join
 
 > [!NOTE]
 > [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00651-hard-length-of-string-2/README.md)
+
+**Help:**
+
+- [@uid11](https://github.com/type-challenges/type-challenges/issues/850)
