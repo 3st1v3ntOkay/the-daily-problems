@@ -238,3 +238,42 @@
 **Help:**
 
 - [@uid11](https://github.com/type-challenges/type-challenges/issues/850)
+
+## DeepPick
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/00956-hard-deeppick/README.md)
+
+**Help:**
+
+- [@xianshenglu](https://github.com/type-challenges/type-challenges/issues/1019)
+
+**Interesting Answers:**
+
+- [@uid11](https://github.com/type-challenges/type-challenges/issues/961)
+
+## Pinia
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/01290-hard-pinia/README.md)
+
+**Help:**
+
+- [@Ayub-Begimkulov](https://github.com/type-challenges/type-challenges/issues/27536)
+
+**Interesting Answers:**
+
+- [@gulewei](https://github.com/type-challenges/type-challenges/issues/4142)
+
+## Camelize
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/01383-hard-camelize/README.md)
+
+**Help:**
+
+- [@danvk](https://github.com/type-challenges/type-challenges/issues/28685)
+
+**Interesting Answers:**
+
+- [@zojize](https://github.com/type-challenges/type-challenges/issues/1403)
