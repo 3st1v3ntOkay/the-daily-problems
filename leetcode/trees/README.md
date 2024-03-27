@@ -68,3 +68,31 @@ Working on the description ...
 
 > [!NOTE]
 > [Challenge](https://leetcode.com/problems/binary-tree-right-side-view/)
+
+## Count Good Nodes in Binary Tree
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)
+
+## Validate Binary Search Tree
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/validate-binary-search-tree/description/)
+
+## Kth Smallest Element in a BST
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)
+
+**Help:**
+
+- [@brogrammer-codes](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solutions/3505000/javascript-inorder-iterative-solution)
+
+## Construct Binary Tree from Preorder and Inorder Traversal
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
+
+**Help:**
+
+- [@darrylbrian](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solutions/2088552/simple-js-recursive-solution)
