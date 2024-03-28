@@ -1,7 +1,6 @@
-type HelloWorld = string;
+import type { Equal, Expect, NotAny } from "@type-challenges/utils";
 
-/* _____________ Test Cases _____________ */
-import type { Equal, Expect, NotAny } from '@type-challenges/utils';
+type HelloWorld = string;
 
 type cases = [
   Expect<NotAny<HelloWorld>>,
