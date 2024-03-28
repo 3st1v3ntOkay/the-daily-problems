@@ -277,3 +277,29 @@
 **Interesting Answers:**
 
 - [@zojize](https://github.com/type-challenges/type-challenges/issues/1403)
+
+## Drop String
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/01383-hard-camelize/README.md)
+
+**Help:**
+
+- [@pandanoir](https://github.com/type-challenges/type-challenges/issues/4911)
+
+**Interesting Answers:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/3308)
+
+- [@hiroyaiizuka](https://github.com/type-challenges/type-challenges/issues/2284)
+
+- [@zongzi531](https://github.com/type-challenges/type-challenges/issues/2160)
+
+## Split
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/01383-hard-camelize/README.md)
+
+**Help:**
+
+- [@milletlovemouse](https://github.com/type-challenges/type-challenges/issues/30920)
