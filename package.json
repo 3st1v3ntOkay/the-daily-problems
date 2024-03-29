@@ -11,6 +11,7 @@
     "leetcode:sliding-window": "node --watch --loader ts-node/esm ./leetcode/sliding-window/permutation-string.js",
     "leetcode:linked-list": "node --watch --loader ts-node/esm ./leetcode/linked-list/lru-cache.js",
     "leetcode:tree": "node --watch --loader ts-node/esm ./leetcode/trees/balanced-binary-tree.js",
+    "leetcode:backtracking": "node --watch --loader ts-node/esm ./leetcode/backtracking/letter-combinations-phone-number.js",
     "test": "vitest",
     "test:trees": "vitest ./leetcode/trees/tests"
   },
