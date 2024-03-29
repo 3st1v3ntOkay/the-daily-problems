@@ -1,6 +1,16 @@
-function isPalindrome(string, left, right) {
+/**
+ * @param {string} string 
+ * @returns 
+ */
+function isPalindrome(string) {
+  let left = 0,
+      right = string.length - 1;
+
   while (left < right) {
-    if (string[left] !== string[right]) return false;
+    if (string[left] !== string[right]) {
+      return false;
+    }
+
     [left, right] = [left + 1, right - 1];
   }
 
@@ -17,16 +27,22 @@ const partition = function(s) {
   let res = [],
       part = [];
 
+  /**
+   * @param {number} index 
+   * @returns 
+   */
   function dfs(index) {
-    if (index >= s.length) {
-      res.push(part);
+    if (index === s.length) {
+      res.push([...part]);
       return;
     }
     
-    for (let j = index; j < s.length; j++) {
-      if (isPalindrome(s, index, j)) {
-        part.push(s.substring(index, j+1));
-        dfs(j + 1);
+    for (let end = index + 1; end <= s.length; end++) {
+      const sub = s.substring(index, end);
+      
+      if (isPalindrome(sub)) {
+        part.push(sub);
+        dfs(end);
         part.pop();
       }
     }
