@@ -303,3 +303,25 @@
 **Help:**
 
 - [@milletlovemouse](https://github.com/type-challenges/type-challenges/issues/30920)
+
+## ClassPublicKeys
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/02828-hard-classpublickeys/README.md)
+
+**Help:**
+
+- [@dimitropoulos](https://github.com/type-challenges/type-challenges/issues/25353)
+
+**Interesting Answers:**
+
+- [@tomina1](https://github.com/type-challenges/type-challenges/issues/2843#issuecomment-1960770873)
+
+## IsRequiredKey
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/02857-hard-isrequiredkey/README.md)
+
+**Interesting Answers:**
+
+- [@tomina1](https://github.com/type-challenges/type-challenges/issues/3732#issuecomment-1960787223)
