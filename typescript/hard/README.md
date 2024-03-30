@@ -325,3 +325,29 @@
 **Interesting Answers:**
 
 - [@tomina1](https://github.com/type-challenges/type-challenges/issues/3732#issuecomment-1960787223)
+
+## ObjectFromEntries
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/02949-hard-objectfromentries/README.md)
+
+**Help:**
+
+- [@AlexeyDuybo](https://github.com/type-challenges/type-challenges/issues/3382)
+
+**Interesting Answers:**
+
+- [@tomina1](https://github.com/type-challenges/type-challenges/issues/3382#issuecomment-1960797041)
+
+## IsPalindrome
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/04037-hard-ispalindrome/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/4040)
+
+**Interesting Answers:**
+
+- [@Luncher](https://github.com/type-challenges/type-challenges/issues/4598)
