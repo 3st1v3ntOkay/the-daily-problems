@@ -351,3 +351,27 @@
 **Interesting Answers:**
 
 - [@Luncher](https://github.com/type-challenges/type-challenges/issues/4598)
+
+## Mutable Keys
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05181-hard-mutable-keys/README.md)
+
+**Help:**
+
+- [@Sun79](https://github.com/type-challenges/type-challenges/issues/5221)
+
+- [@dimitropoulos](https://github.com/type-challenges/type-challenges/issues/25076)
+
+**Interesting Answers:**
+
+- [@kstratis](https://github.com/type-challenges/type-challenges/issues/5221#issuecomment-1464857283)
+
+## Intersection
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/05423-hard-intersection/README.md)
+
+**Help:**
+
+- [@shogogg](https://github.com/type-challenges/type-challenges/issues/5432)
