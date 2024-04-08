@@ -375,3 +375,61 @@
 **Help:**
 
 - [@shogogg](https://github.com/type-challenges/type-challenges/issues/5432)
+
+## Binary to Decimal
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/06141-hard-binary-to-decimal/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/6349)
+
+**Interesting Answers:**
+
+- [@jxhhdx](https://github.com/type-challenges/type-challenges/issues/24382)
+
+- [@dimitropoulos](https://youtu.be/gmr6sFgJCKc)
+
+## Object Key Paths
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/07258-hard-object-key-paths/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/7939)
+
+**Interesting Answers:**
+
+- [@Alexsey](https://github.com/type-challenges/type-challenges/issues/22298)
+
+- [@theoolee](https://github.com/type-challenges/type-challenges/issues/19758)
+
+## Two Sum
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/08804-hard-two-sum/README.md)
+
+**Help:**
+
+- [@drylint](https://github.com/type-challenges/type-challenges/issues/22938)
+
+**Interesting Answers:**
+
+- [@Lionad-Morotar](https://github.com/type-challenges/type-challenges/issues/9119)
+
+## ValidDate
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09155-hard-validdate/README.md)
+
+**Help:**
+
+- [@LoTwT](https://github.com/type-challenges/type-challenges/issues/9174)
+
+**Interesting Answers:**
+
+- [@coderhyy](https://github.com/type-challenges/type-challenges/issues/11542)
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/9283)
