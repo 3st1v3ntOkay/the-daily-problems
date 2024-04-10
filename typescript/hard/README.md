@@ -463,3 +463,33 @@
 - [@teamchong](https://github.com/type-challenges/type-challenges/issues/22541) <- check
 
 - [@danvk](https://github.com/type-challenges/type-challenges/issues/28958) <- check
+
+## Capitalize Nest Object Keys
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09775-hard-capitalize-nest-object-keys/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/16801)
+
+**Interesting Answers:**
+
+- [@Sun79](https://github.com/type-challenges/type-challenges/issues/12685)
+
+- [@fabbrito](https://github.com/type-challenges/type-challenges/issues/14575)
+
+- [@dimitropoulos](https://youtu.be/G9u5ANf4Hgw) <- check
+
+## Replace Union
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/13580-hard-replace-union/README.md)
+
+**Help:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/28560)
+
+**Interesting Answers:**
+
+- [@E-uler](https://github.com/type-challenges/type-challenges/issues/25137)
