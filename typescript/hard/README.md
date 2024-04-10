@@ -433,3 +433,33 @@
 - [@coderhyy](https://github.com/type-challenges/type-challenges/issues/11542)
 
 - [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/9283)
+
+## Assign
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09160-hard-assign/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/9277)
+
+**Interesting Answers:**
+
+- [@dimitropoulos](https://youtu.be/14U0HL1Cwng)
+
+## Maximum
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/09384-hard-maximum/README.md)
+
+**Help:**
+
+- [@m7yue](https://github.com/type-challenges/type-challenges/issues/20574)
+
+**Interesting Answers:**
+
+- [@goddnsgit](https://github.com/type-challenges/type-challenges/issues/21928)
+
+- [@teamchong](https://github.com/type-challenges/type-challenges/issues/22541) <- check
+
+- [@danvk](https://github.com/type-challenges/type-challenges/issues/28958) <- check
