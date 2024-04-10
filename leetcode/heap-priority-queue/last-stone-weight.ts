@@ -2,7 +2,7 @@ function mylastStoneWeight(stones: number[]): number {
   if (!stones.length) return 0;
   stones.sort((a, b) => a -b);
 
-  while(stones.length === 1) {
+  while(stones.length > 1) {
     let y = stones.pop()!;
     let x = stones.pop()!;
 
@@ -67,7 +67,7 @@ function lastStoneWeight(stones: number[]) {
 
     let second = heap.peek();
     heap.extract();
-    
+
     if (first === second) {
       continue;
     }
