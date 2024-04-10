@@ -1,12 +1,12 @@
 function mylastStoneWeight(stones: number[]): number {
   if (!stones.length) return 0;
-  stones.sort((a, b) => a -b);
+  stones.sort((a, b) => a - b);
 
-  while(stones.length > 1) {
+  while (stones.length === 1) {
     let y = stones.pop()!;
     let x = stones.pop()!;
 
-    if (x > y)  {
+    if (x > y) {
       stones.push(y - x);
     }
   }
@@ -25,17 +25,17 @@ class MaxHeap {
     this.compareFn = compareFn;
     this.heap = new Array();
   }
-  
+
   public insert(val: number) {
     this.heap.push(val);
     this.heap.sort(this.compareFn);
   }
-  
+
   // I change this "public extract = () => this.heap.shift();" to:
   public extract() {
     return this.heap.shift();
   }
-  
+
   // I change this "public peek = () => this.heap[0];" to:
   public peek() {
     return this.heap[0];
@@ -80,5 +80,5 @@ function lastStoneWeight(stones: number[]) {
   return heap.peek() ? heap.peek() : 0;
 }
 
-const stones = [2,7,4,1,8,1];
+const stones = [2, 7, 4, 1, 8, 1];
 lastStoneWeight(stones);
