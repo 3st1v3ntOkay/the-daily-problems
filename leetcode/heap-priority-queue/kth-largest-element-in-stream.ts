@@ -81,8 +81,8 @@ class MinHeap {
 }
 
 class KthLargest {
-  targetElement: number;
-  heapInstance = new MinHeap();
+  public targetElement: number;
+  public heapInstance = new MinHeap();
 
   constructor(k: number, nums: number[]) {
     this.targetElement = k;
