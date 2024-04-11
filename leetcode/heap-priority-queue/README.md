@@ -2,6 +2,10 @@
 
 Working on the description ...
 
+## Check
+
+- [priority-queue](https://github.com/datastructures-js/priority-queue)
+
 ## Kth Largest Element in a Stream
 
 > [!NOTE]
@@ -35,3 +39,16 @@ Working on the description ...
 - [@garbagedevvv](https://leetcode.com/problems/last-stone-weight/solutions/2759701/solution-using-sorting-method-86-faster-typescript-js)
 
 - [@Pratyush-Udhani](https://leetcode.com/problems/last-stone-weight/solutions/4130900/typescript-solution-with-custom-max-heap-recursive-priority-queue)
+
+## K Closest Points to Origin
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)
+
+**Other solutions:**
+
+- [@pRoanoke](https://leetcode.com/problems/k-closest-points-to-origin/solutions/4868666/short-and-clean-typescript-solution-comparator-function)
+
+- [@abashev](https://leetcode.com/problems/k-closest-points-to-origin/solutions/1988444/typescript-solution) - check this
+
+- [@TysH00t](https://leetcode.com/problems/k-closest-points-to-origin/solutions/3759903/typescript-maxheap-o-k-log-n) - check this
