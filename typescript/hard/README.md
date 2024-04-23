@@ -493,3 +493,53 @@
 **Interesting Answers:**
 
 - [@E-uler](https://github.com/type-challenges/type-challenges/issues/25137)
+
+## FizzBuzz
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/14080-hard-fizzbuzz/README.md)
+
+**Help:**
+
+- [@NeylonR](https://github.com/type-challenges/type-challenges/issues/24661)
+
+**Interesting Answers:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/29071)
+
+## Run-length encoding
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/14188-hard-run-length-encoding/README.md)
+
+**Help:**
+
+- [@Sun79](https://github.com/type-challenges/type-challenges/issues/14254)
+
+## Tree path array
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/15260-hard-tree-path-array/README.md)
+
+**Help:**
+
+- [@jiaowoxiaobala](https://github.com/type-challenges/type-challenges/issues/28912)
+
+**Interesting Answers:**
+
+- [@baian1](https://github.com/type-challenges/type-challenges/issues/18292)
+
+## SnakeCase
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/19458-hard-snakecase/README.md)
+
+**Help:**
+
+- [@bigcreate](https://github.com/type-challenges/type-challenges/issues/20928)
+
+**Interesting Answers:**
+
+- [@E-uler](https://github.com/type-challenges/type-challenges/issues/25365)
+
+- [@Derstilon](https://github.com/type-challenges/type-challenges/issues/24358)
