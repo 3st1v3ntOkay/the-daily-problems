@@ -543,3 +543,68 @@
 - [@E-uler](https://github.com/type-challenges/type-challenges/issues/25365)
 
 - [@Derstilon](https://github.com/type-challenges/type-challenges/issues/24358)
+
+## IsNegativeNumber
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/25747-hard-isnegativenumber/README.md)
+
+**Help:**
+
+- [@jazelly](https://github.com/type-challenges/type-challenges/issues/27809)
+
+**Interesting Answers:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/25932)
+
+## OptionalUndefined
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/28143-hard-optionalundefined/README.md)
+
+**Help:**
+
+- [@jiangshanmeta](https://github.com/type-challenges/type-challenges/issues/28200)
+
+**Interesting Answers:**
+
+- [@JohnLi1999](https://github.com/type-challenges/type-challenges/issues/28206)
+
+- [@simone-paglino](https://github.com/type-challenges/type-challenges/issues/29649)
+
+## BitwiseXOR
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/30575-hard-bitwisexor/README.md)
+
+**Help:**
+
+- [@Karamuto](https://github.com/type-challenges/type-challenges/issues/31256)
+
+## Unbox
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/32427-hard-unbox/README.md)
+
+**Help:**
+
+- [@Sun79](https://github.com/type-challenges/type-challenges/issues/32469)
+
+**Interesting Answers:**
+
+- [@E-uler](https://github.com/type-challenges/type-challenges/issues/32458)
+
+## Binary Addition
+
+> [!NOTE]
+> [Challenge](https://github.com/type-challenges/type-challenges/blob/main/questions/32532-hard-binary-addition/README.md)
+
+**Help:**
+
+- [@Sun79](https://github.com/type-challenges/type-challenges/issues/32750)
+
+**Interesting Answers:**
+
+- [@E-uler](https://github.com/type-challenges/type-challenges/issues/32792)
+
+- [@lvjiaxuan](https://github.com/type-challenges/type-challenges/issues/32943)
