@@ -1,0 +1,16 @@
+# My travel through arrays and hashing challenges
+
+Working on the description ...
+
+## Number of Islands
+
+> [!NOTE]
+> [Challenge](https://leetcode.com/problems/number-of-islands/description/)
+
+**Help:**
+
+- [@itsyeshu](https://leetcode.com/problems/number-of-islands/solutions/5045113/most-intuitive-explaination-by-itsyeshu-space-effi-python-c-java-javascript-typescript)
+
+- [@prestonbourne](https://leetcode.com/problems/number-of-islands/solutions/3869056/beats-95-easy-to-understand/)
+
+- [@xCk27x](https://leetcode.com/problems/number-of-islands/solutions/5043498/typescript-destory-island/)
