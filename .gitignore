@@ -1,9 +1,6 @@
-# Privite things
-adventJS21/
-adventJs22/
-greedy-algorithms/
-js/
+# privite things
 node_modules/
+test/
 
-# Typescript things
+# typescript things
 typescript/matt-popcock/notes-2/*.ts
