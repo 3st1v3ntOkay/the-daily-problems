@@ -1,6 +1,6 @@
 # privite things
 node_modules/
-test/**/*
+test/
 
 # typescript things
 typescript/matt-popcock/notes-2/*.ts
