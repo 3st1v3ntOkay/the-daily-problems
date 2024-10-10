@@ -1,15 +1,21 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
     "target": "ES2022",
     "jsx": "preserve",
-    /* Modules */
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    /* Type Checking */
     "strict": true,
-    "noImplicitThis": true,                    
+    "noImplicitThis": true,
     "skipLibCheck": true,
-  }
+    "baseUrl": ".",
+    "paths": {
+      "@leetcode/*": [
+        "./leetcode/*",
+      ],
+      "@typescript/*": [
+        "./typescript/*",
+      ],
+    },
+  },
 }
