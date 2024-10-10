@@ -1,23 +1,14 @@
 {
-  "name": "test-zone-javascript",
+  "name": "the-daily-problems",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "",
   "type": "module",
-  "scripts": {
-    "dev:advent22": "node --watch --loader ts-node/esm ./adventJs22/reto-23/23.mjs",
-    "leetcode:two-pointers": "node --watch --loader ts-node/esm ./leetcode/two-pointers/container-w-most-water.js",
-    "leetcode:stack": "node --watch --loader ts-node/esm ./leetcode/stack/car-fleet.js",
-    "leetcode:binary-search": "node --watch --loader ts-node/esm ./leetcode/binary-search/time-based-key-value-store.js",
-    "leetcode:sliding-window": "node --watch --loader ts-node/esm ./leetcode/sliding-window/permutation-string.js",
-    "leetcode:linked-list": "node --watch --loader ts-node/esm ./leetcode/linked-list/lru-cache.js",
-    "leetcode:tree": "node --watch --loader ts-node/esm ./leetcode/trees/balanced-binary-tree.js",
-    "leetcode:backtracking": "node --watch --loader ts-node/esm ./leetcode/backtracking/letter-combinations-phone-number.js",
-    "leetcode:heap-priority-queue": "node --watch --loader ts-node/esm ./leetcode/heap-priority-queue/last-stone-weight.ts",
-    "test": "vitest",
-    "test:trees": "vitest ./leetcode/trees/tests",
-    "leetcode:graph": "node --watch --loader ts-node/esm ./leetcode/graphs/islands-and-treasure.ts"
-  },
   "license": "MIT",
+  "scripts": {
+    "watch:leetcode": "node --watch --loader ts-node/esm",
+    "test:vitest": "vitest",
+    "test:vitest-ui": "vitest --ui"
+  },
   "devDependencies": {
     "@babel/cli": "7.25.7",
     "@babel/code-frame": "7.25.7",
