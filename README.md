@@ -1,11 +1,25 @@
-# Problems
+# The Daily Problems
 
-Here you would be able to find problems I had solve with or without help and other interesting things.
+El proposito de este proyecto es pricipalmente almacenar algoritmos y soluciones algoritmicas de problemas diarios que uno puede llegar a tener.
 
-## Leetcode challenges
+## Algorithms
 
-I'm trying to solve all problems from this [roadmap](https://neetcode.io/roadmap). If I stuck I see the video to undertsand better the problem and then I try to find the best solution.
+Aqui les dejare personas y enlaces a lugares que recomiendo para aprender y poner en practica tus conocimientos en algoritmia.
 
-## Typescript wizard
+De momento los algoritmos solo estan disponibles en JavaScript y TypeScript pero quiero reescribirlos tambien para lenguajes como C, C++, Rust y Go.
 
-[Typescript teacher](https://www.youtube.com/@mattpocockuk)
+[NeetCode](https://www.youtube.com/@NeetCode)
+[NeetCodeIO](https://www.youtube.com/@NeetCodeIO)
+[Coderbyte](https://www.youtube.com/@CoderbyteDevelopers)
+[Back To Back SWE](https://www.youtube.com/@BackToBackSWE)
+
+[DSA](https://www.w3schools.com/dsa/index.php)
+[Data Structures & Algorithms](https://roadmap.sh/datastructures-and-algorithms)
+[NeetCode](https://neetcode.io/roadmap)
+
+## Typescript
+
+Aqui les dejare a personas que recomiendo para aprender TypeScript a un nivel mas avanzado.
+
+[Matt Pocock](https://www.youtube.com/@mattpocockuk)
+[Andrew Burgess](https://www.youtube.com/@andrew-burgess)
