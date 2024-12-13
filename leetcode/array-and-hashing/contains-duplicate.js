@@ -1,3 +1,5 @@
+const ArrayNums = [1, 2, 3, 1];
+
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -9,4 +11,4 @@ function containsDuplicate(nums) {
   return condition;
 }
 
-containsDuplicate([1, 2, 3, 1]);
+containsDuplicate(ArrayNums);
