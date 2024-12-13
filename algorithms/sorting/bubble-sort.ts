@@ -1,4 +1,4 @@
-const BubbleNums: number[] = [3, 1, 2, 4];
+const BubbleNums: number[] = [7, 3, 1, 5, 2, 4];
 
 function BubbleSort(array: number[]): number[] {
   if (!array.length) return [];
