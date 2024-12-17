@@ -30,5 +30,4 @@ function InsertionSortVariant1(array: number[]): number[] {
 }
 
 InsertionSort(InsertionNums);
-
 InsertionSortVariant1(InsertionNums);

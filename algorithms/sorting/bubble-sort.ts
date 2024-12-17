@@ -47,6 +47,5 @@ function BubbleSortVariant2(array: number[]): number[] {
 }
 
 BubbleSort(BubbleNums);
-
 BubbleSortVariant1(BubbleNums);
 BubbleSortVariant2(BubbleNums);
