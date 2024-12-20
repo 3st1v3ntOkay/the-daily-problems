@@ -1,13 +1,15 @@
-import type {
-  Equal,
-  Expect,
-} from "@type-challenges/utils";
+interface TData {
+  housingIndex: number;
+  minimumWage: number;
+}
 
-const survivalRatio = (input: number) => {
-  const data = annualData[input];
+const survivalRatio = (input: number): number => {
+  const data: TData = annualData[input];
+
   if (!data) {
     throw new Error("Data not found");
   }
+
   return data.housingIndex / data.minimumWage;
 }
 
