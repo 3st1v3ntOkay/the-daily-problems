@@ -88,7 +88,6 @@ const annualData: AnnualData = {
   },
 }
 
-
 const reportForSanta = {
   2009: survivalRatio(2009),
   2010: survivalRatio(2010),
