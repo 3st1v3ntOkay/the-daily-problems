@@ -54,8 +54,8 @@ Guías de aprendizaje de alta calidad.
 High quality learning guides.
 
 - [DSA](https://www.w3schools.com/dsa/index.php)
-[Data Structures & Algorithms](https://roadmap.sh/datastructures-and-algorithms)
-[NeetCode](https://neetcode.io/roadmap)
+- [Data Structures & Algorithms](https://roadmap.sh/datastructures-and-algorithms)
+- [NeetCode](https://neetcode.io/roadmap)
 
 ## Extras
 
