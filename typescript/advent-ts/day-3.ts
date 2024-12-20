@@ -109,7 +109,7 @@ const reportForSanta = {
 }
 
 // @ts-expect-error
-survivalRatio('1');
+survivalRatio("1");
 
 // @ts-expect-error
 survivalRatio(true);

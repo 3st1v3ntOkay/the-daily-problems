@@ -12,7 +12,7 @@ interface TData {
 
 const survivalRatio = (input: TInput): number => {
   const quarter: string =
-    typeof input === 'string' ? input : `${input} Q1`;
+    typeof input === "string" ? input : `${input} Q1`;
 
   const data: TData = quarterlyData[quarter];
 
@@ -838,14 +838,14 @@ type t1_actual = typeof now;
 type t1_expected = number;
 type t1 = Expect<Equal<t1_actual, t1_expected>>;
 
-// We can pass strings like `'2009 Q2'`:
+// We can pass strings like `"2009 Q2"`:
 
-const q1_2009 = survivalRatio('2009 Q1');
+const q1_2009 = survivalRatio("2009 Q1");
 type t2_actual = typeof q1_2009;
 type t2_expected = number;
 type t2 = Expect<Equal<t2_actual, t2_expected>>;
 
-const q2_2024 = survivalRatio('2024 Q2');
+const q2_2024 = survivalRatio("2024 Q2");
 type t3_actual = typeof q2_2024;
 type t3_expected = number;
 type t3 = Expect<Equal<t3_actual, t3_expected>>;
