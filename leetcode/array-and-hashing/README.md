@@ -1,6 +1,8 @@
-# My travel through arrays and hashing challenges
+# Array and Hashing
 
-Working on the description ...
+Here the links to LeetCode problems:
+
+</br>
 
 ## Contains Duplicate
 
