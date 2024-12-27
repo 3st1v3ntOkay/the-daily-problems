@@ -1,14 +1,9 @@
-/**
- * @param {string} s
- * @param {string} t
- * @return {boolean}
- */
-function isAnagram(s, t) {
+function isAnagram(s: string, t: string): boolean {
   if (s.length !== t.length) {
     return false;
   }
 
-  let freq = new Array(26).fill(0);
+  let freq: number[] = new Array(26).fill(0);
 
   for (let i = 0; i < s.length; i++) {
     freq[s.charCodeAt(i) - "a".charCodeAt(0)]++;
@@ -22,6 +17,6 @@ function isAnagram(s, t) {
   }
 
   return true;
-}
+};
 
 isAnagram("anagram", "nagaram");
