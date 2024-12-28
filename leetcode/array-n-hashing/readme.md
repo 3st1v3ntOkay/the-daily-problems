@@ -12,7 +12,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [extra_solution](url)
+1. **[@user](url)**
 
 <!-- line -->
 <!-- line -->
@@ -30,7 +30,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [extra_solution](url)
+1. **[@user](url)**
 
 <!-- line -->
 <!-- line -->
@@ -66,7 +66,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [extra_solution](url)
+1. **[@user](url)**
 
 <!-- line -->
 <!-- line -->
@@ -84,7 +84,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [extra_solution](url)
+1. **[@user](url)**
 
 <!-- line -->
 <!-- line -->
@@ -102,7 +102,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [extra_solution](url)
+1. **[@user](url)**
 
 <!-- line -->
 <!-- line -->
@@ -120,7 +120,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [extra_solution](url)
+1. **[@user](url)**
 
 <!-- line -->
 <!-- line -->
@@ -138,4 +138,4 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [extra_solution](url)
+1. **[@user](url)**
