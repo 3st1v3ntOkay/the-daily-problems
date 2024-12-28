@@ -1,7 +1,7 @@
 import {
-  LinkedList as ListNode,
+  LinkedList,
   addList,
-} from "./data/LinkedList.js"
+} from "../_data/LinkedList.js"
 
 const myAddTwoNumbers = function (l1: any, l2: any) {
   let stack1 = [], stack2 = [];
