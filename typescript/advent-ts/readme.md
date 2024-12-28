@@ -1,13 +1,17 @@
-# advent<ts>
+# Advent TS 2024
 
-[adventofts](https://www.adventofts.com/events/2024) by typehero
+> :mega: [adventofts](https://www.adventofts.com/events/2024) by typehero
 
-**Spanish**
+**Spanish:**
 </br>
 
-Descripcion en dessarollo ...
+Mi resumen del advent of ts 2024
 
-**English**
+**English:**
 </br>
 
-Description under development ...
+My summary of the advent of ts 2024
+
+<!-- line -->
+<!-- line -->
+<!-- line -->

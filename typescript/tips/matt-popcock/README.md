@@ -4,10 +4,10 @@ All these examples where learned from [8 Tips from the TS Wizard - using, as con
 
 ## Videos
 
-[Rethink your life choices before you do this...](https://youtu.be/uiOJ5_7cB4I)
+1. [Rethink your life choices before you do this...](https://youtu.be/uiOJ5_7cB4I)
 
-[The TSConfig Cheat Sheet](https://youtu.be/eJXVEju3XLM)
+2. [The TSConfig Cheat Sheet](https://youtu.be/eJXVEju3XLM)
 
-[Dynamic objects should NOT be this hard](https://youtu.be/Gxd4StCrN3g)
+3. [Dynamic objects should NOT be this hard](https://youtu.be/Gxd4StCrN3g)
 
-[The most underrated TypeScript feature](https://youtu.be/6M9aZzm-kEc)
+4. [The most underrated TypeScript feature](https://youtu.be/6M9aZzm-kEc)
