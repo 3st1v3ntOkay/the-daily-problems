@@ -1,4 +1,4 @@
-import { TrieNode } from "./data/trie";
+import { TrieNode } from "../_data/trie";
 
 // its name comes from re"trie"val
 class Trie {
@@ -34,7 +34,7 @@ class Trie {
 
     for (let c of word) {
       current = current[c];
-      
+
       if (current == null) {
         return null;
       }
