@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type Bit = 1 | 0;
 
@@ -28,7 +31,7 @@ type BinaryAdd<
   B extends Bit[],
   _Carry extends Bit = 0,
 > =
-  A['length'] extends 0
+  A["length"] extends 0
   ? _Carry extends 1
   ? [1]
   : []
@@ -52,7 +55,7 @@ type XOr<A extends Bit, B extends Bit> =
   A extends B ? 0 : 1;
 
 type Carry<T extends Bit[]> =
-  Reject<T, 0>['length'] extends 0 | 1 ? 0 : 1;
+  Reject<T, 0>["length"] extends 0 | 1 ? 0 : 1;
 
 type Reject<T extends any[], K> =
   T extends [infer Head, ...infer Rest]

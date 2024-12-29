@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myObjectFromEntries<T> =
   T extends [infer key, ...infer value]
@@ -18,7 +21,7 @@ interface Model {
   locations: string[] | null
 }
 
-type ModelEntries = ['name', string] | ['age', number] | ['locations', string[] | null];
+type ModelEntries = ["name", string] | ["age", number] | ["locations", string[] | null];
 
 type cases = [
   Expect<Equal<ObjectFromEntries<ModelEntries>, Model>>,

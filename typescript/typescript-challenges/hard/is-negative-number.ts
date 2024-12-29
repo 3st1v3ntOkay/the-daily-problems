@@ -1,8 +1,11 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myIsNegativeNumber<T extends number> =
   `${T}` extends `${infer NegativeSymbol}${string}`
-  ? NegativeSymbol extends '-'
+  ? NegativeSymbol extends "-"
   ? true
   : false
   : false;
@@ -15,12 +18,12 @@ type IsNegativeNumber<
   number extends T
   ? never
   : T extends U
-    ? [U] extends [T]
-      ? `${T}` extends `-${infer _}`
-        ? true
-        : false
-      : never
-    : never;
+  ? [U] extends [T]
+  ? `${T}` extends `-${infer _}`
+  ? true
+  : false
+  : never
+  : never;
 
 type cases = [
   Expect<Equal<IsNegativeNumber<0>, false>>,

@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type InmutableKeys<TObject extends object> = {
   readonly [key in keyof TObject]: TObject[key]
@@ -21,8 +24,8 @@ type MutableKeys<TObject extends object> = keyof {
 }
 
 type cases = [
-  Expect<Equal<MutableKeys<{ a: number, readonly b: string }>, 'a'>>,
-  Expect<Equal<MutableKeys<{ a: undefined, readonly b: undefined }>, 'a'>>,
-  Expect<Equal<MutableKeys<{ a: undefined, readonly b?: undefined, c: string, d: null }>, 'a' | 'c' | 'd'>>,
+  Expect<Equal<MutableKeys<{ a: number, readonly b: string }>, "a">>,
+  Expect<Equal<MutableKeys<{ a: undefined, readonly b: undefined }>, "a">>,
+  Expect<Equal<MutableKeys<{ a: undefined, readonly b?: undefined, c: string, d: null }>, "a" | "c" | "d">>,
   Expect<Equal<MutableKeys<{}>, never>>,
 ];

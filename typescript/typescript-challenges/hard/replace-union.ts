@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myUnionReplace<
   T,
@@ -21,13 +24,13 @@ type myUnionReplace<
 
 // @jiaowoxiaobala + some modifications of how I had thought it
 type UnionReplace<T, U extends [any, any][]> =
-U extends [
-  infer First extends [any, any],
-  ...infer Rest extends [any, any][]
-]
+  U extends [
+    infer First extends [any, any],
+    ...infer Rest extends [any, any][]
+  ]
   ? First extends [infer currentValue, infer newValue]
-    ? UnionReplace<T extends currentValue ? newValue : T, Rest>
-    : never
+  ? UnionReplace<T extends currentValue ? newValue : T, Rest>
+  : never
   : T;
 
 type cases = [

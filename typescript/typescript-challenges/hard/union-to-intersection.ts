@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myUnionToIntersection<U> =
   U extends [infer first, ...infer rest]
@@ -10,27 +13,27 @@ type myUnionToIntersection<U> =
   : never;
 
 // @zhaoyao91
-type UnionToFunctionUnion<U> = 
+type UnionToFunctionUnion<U> =
   U extends unknown
-    ? (arg: U) => unknown
-    : never;
+  ? (arg: U) => unknown
+  : never;
 
-type UnionToIntersection<U> = 
+type UnionToIntersection<U> =
   UnionToFunctionUnion<U> extends (arg: infer Arg) => unknown
-    ? Arg
-    : never;
+  ? Arg
+  : never;
 
 type cases = [
   Expect<Equal<UnionToIntersection<
-    'foo' | 42 | true>,
-    'foo' & 42 & true
+    "foo" | 42 | true>,
+    "foo" & 42 & true
   >>,
   // Expect<Equal<UnionToIntersection<
-  //   () => 'foo' | (i: 42) => true>,
-  //   () => 'foo' & (i: 42) => true
+  //   () => "foo" | (i: 42) => true>,
+  //   () => "foo" & (i: 42) => true
   // >>,
   Expect<Equal<UnionToIntersection<
-    (() => 'foo') | ((i: 42) => true)>,
-    (() => 'foo') & ((i: 42) => true)
+    (() => "foo") | ((i: 42) => true)>,
+    (() => "foo") & ((i: 42) => true)
   >>,
 ];

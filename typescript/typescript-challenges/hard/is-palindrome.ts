@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myIsPalindrome<T extends string | number> =
   T extends `${infer left}${infer middle}${infer right}`
@@ -23,11 +26,11 @@ type IsPalindromeArray<T extends any[]> =
 type IsPalindrome<T extends string | number> = IsPalindromeArray<StringToTuple<`${T}`>>
 
 type cases = [
-  Expect<Equal<IsPalindrome<'abc'>, false>>,
-  Expect<Equal<IsPalindrome<'b'>, true>>,
-  Expect<Equal<IsPalindrome<'abca'>, false>>,
-  Expect<Equal<IsPalindrome<'abba'>, true>>,
-  Expect<Equal<IsPalindrome<'abcba'>, true>>,
+  Expect<Equal<IsPalindrome<"abc">, false>>,
+  Expect<Equal<IsPalindrome<"b">, true>>,
+  Expect<Equal<IsPalindrome<"abca">, false>>,
+  Expect<Equal<IsPalindrome<"abba">, true>>,
+  Expect<Equal<IsPalindrome<"abcba">, true>>,
   Expect<Equal<IsPalindrome<121>, true>>,
   Expect<Equal<IsPalindrome<2332>, true>>,
   Expect<Equal<IsPalindrome<19260817>, false>>,

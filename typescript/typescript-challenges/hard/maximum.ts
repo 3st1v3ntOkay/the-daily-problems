@@ -1,10 +1,13 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type NumberLength<
   Indicator extends number,
   Length extends 0[] = []
 > =
-  Length['length'] extends Indicator
+  Length["length"] extends Indicator
   ? Length
   : NumberLength<Indicator, [...Length, 0]>;
 
@@ -17,14 +20,14 @@ type Bigger<
     infer first extends 0[],
     ...infer rest extends 0[][]
   ]
-  ? Backup['length'] extends 0
+  ? Backup["length"] extends 0
   ? Bigger<rest, first, []>
-  : first['length'] extends Backup['length']
+  : first["length"] extends Backup["length"]
   ? Bigger<rest, first, first>
   : Bigger<rest, first, Backup>
-  : Big['length'] extends 0
+  : Big["length"] extends 0
   ? never
-  : Big['length'];
+  : Big["length"];
 
 type myMaximum<
   T extends any[],
@@ -42,7 +45,7 @@ type NumberToArr<
   N extends number,
   TArr extends unknown[] = []
 >
-  = TArr['length'] extends N
+  = TArr["length"] extends N
   ? TArr
   : NumberToArr<N, [...TArr, unknown]>;
 
@@ -58,9 +61,9 @@ type Compare<
 type GetMax<A extends number, B extends number> = Compare<A, B, 1>;
 
 type Maximum<T extends number[]>
-  = T['length'] extends 0
+  = T["length"] extends 0
   ? never
-  : T['length'] extends 1
+  : T["length"] extends 1
   ? T[0]
   : T extends [infer A extends number, infer B extends number, ...infer Rest extends number[]]
   ? Maximum<[GetMax<A, B>, ...Rest]>

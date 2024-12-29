@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type For<
   T extends number,
@@ -25,10 +28,10 @@ type myTwoSum<
     infer first extends number,
     ...infer rest extends number[]
   ]
-  ? For<first, rest, U>['length'] extends true
+  ? For<first, rest, U>["length"] extends true
   ? myTwoSum<rest, U, [...ResArray, true]>
   : myTwoSum<rest, U, [...ResArray]>
-  : ResArray['length'] extends true
+  : ResArray["length"] extends true
   ? true
   : false;
 
@@ -38,7 +41,7 @@ type NumberToUnionArr<
   R extends unknown[] = []
 > =
   T extends T
-  ? R['length'] extends T
+  ? R["length"] extends T
   ? R
   : NumberToUnionArr<T, [...R, 0]>
   : never;
@@ -47,7 +50,7 @@ type SumUnion<
   T extends number[],
   R = never,
 > =
-  T['length'] extends 0 | 1
+  T["length"] extends 0 | 1
   ? R
   : T extends [
     infer A extends number,
@@ -56,7 +59,7 @@ type SumUnion<
   ? SumUnion<Rest, R | [
     ...NumberToUnionArr<A>,
     ...NumberToUnionArr<Rest[number]>
-  ]['length']>
+  ]["length"]>
   : never;
 
 type TwoSum<

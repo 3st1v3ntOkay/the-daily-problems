@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myUnbox<
   T extends any,
@@ -7,13 +10,13 @@ type myUnbox<
   T extends string | number | boolean
   ? T
   : T extends (string | number | boolean)[]
-  ? '???'
+  ? "???"
   : T extends string[] | number[] | boolean[]
-  ? '???'
+  ? "???"
   : T extends [string | number | boolean]
-  ? '???'
+  ? "???"
   : T extends Promise<string | number | boolean>
-  ? '???'
+  ? "???"
   : T extends () => infer NextValue
   ? NextValue extends () => any
   ? myUnbox<NextValue>
@@ -27,7 +30,7 @@ type Unbox<
   Count extends any[] = [1],
 > =
   T extends ((...args: any[]) => infer R) | (infer R)[] | Promise<infer R>
-  ? Count['length'] extends Depth
+  ? Count["length"] extends Depth
   ? R
   : Unbox<R, Depth, [...Count, 1]>
   : T;

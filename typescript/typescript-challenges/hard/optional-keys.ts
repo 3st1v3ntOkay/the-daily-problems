@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type Original<
   T extends object,
@@ -22,8 +25,8 @@ type GetOptional<T extends object> = {
 type OptionalKeys<T extends object> = keyof GetOptional<T>;
 
 type cases = [
-  Expect<Equal<OptionalKeys<{ a: number, b?: string }>, 'b'>>,
-  Expect<Equal<OptionalKeys<{ a: undefined, b?: undefined }>, 'b'>>,
-  Expect<Equal<OptionalKeys<{ a: undefined, b?: undefined, c?: string, d?: null }>, 'b' | 'c' | 'd'>>,
+  Expect<Equal<OptionalKeys<{ a: number, b?: string }>, "b">>,
+  Expect<Equal<OptionalKeys<{ a: undefined, b?: undefined }>, "b">>,
+  Expect<Equal<OptionalKeys<{ a: undefined, b?: undefined, c?: string, d?: null }>, "b" | "c" | "d">>,
   Expect<Equal<OptionalKeys<{}>, never>>,
 ]

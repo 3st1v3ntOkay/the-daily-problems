@@ -1,13 +1,16 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type ControlsMap = {
-  c: 'char'
-  s: 'string'
-  d: 'dec'
-  o: 'oct'
-  h: 'hex'
-  f: 'float'
-  p: 'pointer'
+  c: "char"
+  s: "string"
+  d: "dec"
+  o: "oct"
+  h: "hex"
+  f: "float"
+  p: "pointer"
 }
 
 type Result<
@@ -22,7 +25,7 @@ type myParsePrintFormat<
   ArrRes extends string[] = []
 > =
   T extends `${string}%${infer check}`
-  ? check extends '%'
+  ? check extends "%"
   ? myParsePrintFormat<check>
   : Result<check, ControlsMap>
   : ArrRes;
@@ -36,14 +39,14 @@ type ParsePrintFormat<S extends string> =
   : [];
 
 type cases = [
-  Expect<Equal<ParsePrintFormat<''>, []>>,
-  Expect<Equal<ParsePrintFormat<'Any string.'>, []>>,
-  Expect<Equal<ParsePrintFormat<'The result is %d.'>, ['dec']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %%d.'>, []>>,
-  Expect<Equal<ParsePrintFormat<'The result is %%%d.'>, ['dec']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %f.'>, ['float']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %h.'>, ['hex']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %q.'>, []>>,
-  Expect<Equal<ParsePrintFormat<'Hello %s: score is %d.'>, ['string', 'dec']>>,
-  Expect<Equal<ParsePrintFormat<'The result is %'>, []>>,
+  Expect<Equal<ParsePrintFormat<"">, []>>,
+  Expect<Equal<ParsePrintFormat<"Any string.">, []>>,
+  Expect<Equal<ParsePrintFormat<"The result is %d.">, ["dec"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %%d.">, []>>,
+  Expect<Equal<ParsePrintFormat<"The result is %%%d.">, ["dec"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %f.">, ["float"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %h.">, ["hex"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %q.">, []>>,
+  Expect<Equal<ParsePrintFormat<"Hello %s: score is %d.">, ["string", "dec"]>>,
+  Expect<Equal<ParsePrintFormat<"The result is %">, []>>,
 ];

@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type Mayus = "N"; // just testing with a letter
 
@@ -16,8 +19,8 @@ type SnakeCase<T> =
   : T;
 
 type cases = [
-  Expect<Equal<SnakeCase<'hello'>, 'hello'>>,
-  Expect<Equal<SnakeCase<'userName'>, 'user_name'>>,
-  Expect<Equal<SnakeCase<'getElementById'>, 'get_element_by_id'>>,
-  Expect<Equal<SnakeCase<'getElementById' | 'getElementByClassNames'>, 'get_element_by_id' | 'get_element_by_class_names'>>,
+  Expect<Equal<SnakeCase<"hello">, "hello">>,
+  Expect<Equal<SnakeCase<"userName">, "user_name">>,
+  Expect<Equal<SnakeCase<"getElementById">, "get_element_by_id">>,
+  Expect<Equal<SnakeCase<"getElementById" | "getElementByClassNames">, "get_element_by_id" | "get_element_by_class_names">>,
 ];

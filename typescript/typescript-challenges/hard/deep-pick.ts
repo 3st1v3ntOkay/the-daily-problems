@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myDeepPick<
   Obj extends object,
@@ -58,9 +61,9 @@ type Obj = {
 }
 
 type cases = [
-  Expect<Equal<DeepPick<Obj, ''>, unknown>>,
-  Expect<Equal<DeepPick<Obj, 'a'>, { a: number }>>,
-  Expect<Equal<DeepPick<Obj, 'a' | ''>, { a: number } & unknown>>,
-  Expect<Equal<DeepPick<Obj, 'a' | 'obj.e'>, { a: number } & { obj: { e: string } }>>,
-  Expect<Equal<DeepPick<Obj, 'a' | 'obj.e' | 'obj.obj2.i'>, { a: number } & { obj: { e: string } } & { obj: { obj2: { i: boolean } } }>>,
+  Expect<Equal<DeepPick<Obj, "">, unknown>>,
+  Expect<Equal<DeepPick<Obj, "a">, { a: number }>>,
+  Expect<Equal<DeepPick<Obj, "a" | "">, { a: number } & unknown>>,
+  Expect<Equal<DeepPick<Obj, "a" | "obj.e">, { a: number } & { obj: { e: string } }>>,
+  Expect<Equal<DeepPick<Obj, "a" | "obj.e" | "obj.obj2.i">, { a: number } & { obj: { e: string } } & { obj: { obj2: { i: boolean } } }>>,
 ];

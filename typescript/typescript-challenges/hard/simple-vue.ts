@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 declare function mySimpleVue(options: {
   data: () => Record<string, any>;
@@ -38,8 +41,8 @@ SimpleVue({
     this.data()
 
     return {
-      firstname: 'Type',
-      lastname: 'Challenges',
+      firstname: "Type",
+      lastname: "Challenges",
       amount: 10,
     }
   },

@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type IsRequiredKey<
   T,
@@ -12,9 +15,9 @@ type IsRequiredKey<
   : false
 
 type cases = [
-  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, 'a'>, true>>,
-  Expect<Equal<IsRequiredKey<{ a: undefined, b: string }, 'a'>, true>>,
-  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, 'b'>, false>>,
-  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, 'b' | 'a'>, false>>,
-  Expect<Equal<IsRequiredKey<{ a: undefined, b: undefined }, 'b' | 'a'>, true>>,
+  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, "a">, true>>,
+  Expect<Equal<IsRequiredKey<{ a: undefined, b: string }, "a">, true>>,
+  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, "b">, false>>,
+  Expect<Equal<IsRequiredKey<{ a: number, b?: string }, "b" | "a">, false>>,
+  Expect<Equal<IsRequiredKey<{ a: undefined, b: undefined }, "b" | "a">, true>>,
 ];

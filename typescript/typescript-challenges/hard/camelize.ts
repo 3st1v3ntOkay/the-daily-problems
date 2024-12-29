@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type Changer<Str extends PropertyKey> =
   Str extends `${infer FPart}_${infer Rest}`

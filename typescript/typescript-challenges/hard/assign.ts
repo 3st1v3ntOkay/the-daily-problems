@@ -1,9 +1,12 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myDeepObject<
   T extends unknown[],
 > =
-  T['length'] extends 0
+  T["length"] extends 0
   ? never
   : T extends [infer first, ...infer rest]
   ? {
@@ -36,21 +39,21 @@ type Assign<
 type Case1Target = {}
 
 type Case1Origin1 = {
-  a: 'a'
+  a: "a"
 }
 
 type Case1Origin2 = {
-  b: 'b'
+  b: "b"
 }
 
 type Case1Origin3 = {
-  c: 'c'
+  c: "c"
 }
 
 type Case1Answer = {
-  a: 'a'
-  b: 'b'
-  c: 'c'
+  a: "a"
+  b: "b"
+  c: "c"
 }
 
 // case2
@@ -60,7 +63,7 @@ type Case2Target = {
 
 type Case2Origin1 = {
   a: {
-    a1: 'a1'
+    a1: "a1"
   }
 }
 
@@ -70,7 +73,7 @@ type Case2Origin2 = {
 
 type Case2Answer = {
   a: {
-    a1: 'a1'
+    a1: "a1"
   }
   b: [2, 3, 3]
 }
@@ -79,46 +82,46 @@ type Case2Answer = {
 
 type Case3Target = {
   a: 1
-  b: ['b']
+  b: ["b"]
 }
 
 type Case3Origin1 = {
   a: 2
   b: {
-    b: 'b'
+    b: "b"
   }
-  c: 'c1'
+  c: "c1"
 }
 
 type Case3Origin2 = {
   a: 3
-  c: 'c2'
+  c: "c2"
   d: true
 }
 
 type Case3Answer = {
   a: 3
   b: {
-    b: 'b'
+    b: "b"
   }
-  c: 'c2'
+  c: "c2"
   d: true
 }
 
 // case 4
 type Case4Target = {
   a: 1
-  b: ['b']
+  b: ["b"]
 }
 
 type Case4Answer = {
   a: 1
-  b: ['b']
+  b: ["b"]
 }
 
 type cases = [
   Expect<Equal<Assign<Case1Target, [Case1Origin1, Case1Origin2, Case1Origin3]>, Case1Answer>>,
   Expect<Equal<Assign<Case2Target, [Case2Origin1, Case2Origin2]>, Case2Answer>>,
   Expect<Equal<Assign<Case3Target, [Case3Origin1, Case3Origin2]>, Case3Answer>>,
-  Expect<Equal<Assign<Case4Target, ['', 0]>, Case4Answer>>,
+  Expect<Equal<Assign<Case4Target, ["", 0]>, Case4Answer>>,
 ];

@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myClassPublicKeys<ClassType> = {
   [key in keyof ClassType]: ClassType[key]
@@ -24,5 +27,5 @@ class A {
 }
 
 type cases = [
-  Expect<Equal<ClassPublicKeys<A>, 'str' | 'getNum'>>,
+  Expect<Equal<ClassPublicKeys<A>, "str" | "getNum">>,
 ];

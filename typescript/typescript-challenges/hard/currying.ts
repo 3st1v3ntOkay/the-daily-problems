@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type Curry<T extends any[]> =
   T extends [infer first, ...infer rest]
@@ -17,7 +20,7 @@ type FirstAsTuple<T> =
 
 type Curried<T> =
   T extends (...args: infer Args) => infer Return
-  ? Args['length'] extends 1 | 0
+  ? Args["length"] extends 1 | 0
   ? T
   : Args extends [any, ...infer Rest]
   ? (...args: FirstAsTuple<Args>) => Curried<(...rest: Rest) => Return>

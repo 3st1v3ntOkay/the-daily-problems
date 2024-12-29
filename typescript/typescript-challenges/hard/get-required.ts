@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 type myGetRequired<T extends object> = {
   [key in keyof T as T extends `?` ? key : never]: T[key]
