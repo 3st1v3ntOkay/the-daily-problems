@@ -1,12 +1,15 @@
-# Is this a real challenge???
+# Warm Up TypeScript Challenges
 
-Working on the description ...
+## Hello World
 
-## Typescript challenges
+Main information ...
 
-> [!NOTE]
-> [Challenge](https://github.com/type-challenges/type-challenges)
+- [Hello World](https://github.com/type-challenges/type-challenges/blob/main/questions/00013-warm-hello-world/README.md) github link
 
-**Help:**
+> :mega: **Other Solutions**
 
-- 👉🏻 [Hurry up noob to the docs](https://www.typescriptlang.org/docs/)
+1. **[@user](url)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
