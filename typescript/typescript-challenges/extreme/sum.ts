@@ -1,4 +1,7 @@
-import type { Equal, Expect } from "@type-challenges/utils";
+import type {
+  Equal,
+  Expect,
+} from "@type-challenges/utils";
 
 // my try
 type T1<
@@ -21,12 +24,12 @@ type mySum<
 type NumberLike = string | number | bigint;
 
 /**
- * ToString<3> = '3'.
+ * ToString<3> = "3".
  */
 type ToString<N extends NumberLike> = `${N}`;
 
 /**
- * Split<'foo'> = ['f', 'o', 'o'].
+ * Split<"foo"> = ["f", "o", "o"].
  */
 type Split<S extends string> =
   S extends `${infer Letter}${infer Rest}`
@@ -72,7 +75,7 @@ type Digit = ToString<SumMod10[0][number]>;
 type Tuple = readonly Digit[];
 
 /**
- * Last<['2', '3']> = '3'.
+ * Last<["2", "3"]> = "3".
  */
 type Last<T extends Tuple> =
   T extends []
@@ -84,7 +87,7 @@ type Last<T extends Tuple> =
   : "0";
 
 /**
- * Pop<['2', '3', '4']> = ['2', '3'].
+ * Pop<["2", "3", "4"]> = ["2", "3"].
  */
 type Pop<T extends Tuple> =
   T extends [...infer Head, infer Last]
@@ -92,7 +95,7 @@ type Pop<T extends Tuple> =
   : [];
 
 /**
- * Join<['1', '2']> = '12'.
+ * Join<["1", "2"]> = "12".
  */
 type Join<T extends Tuple> =
   T extends [] ? "" : `${Join<Pop<T>>}${Last<T>}`;
@@ -112,7 +115,7 @@ type TenOfSum<
 
 /**
  * TuplesAreEmpty<[], []> = true.
- * TuplesAreEmpty<[], ['1']> = false.
+ * TuplesAreEmpty<[], ["1"]> = false.
  */
 type TuplesAreEmpty<
   A extends Tuple,
@@ -125,7 +128,7 @@ type TuplesAreEmpty<
   : false;
 
 /**
- * SumOfTuple<['2', '3'], ['9']> = ['3', '2'].
+ * SumOfTuple<["2", "3"], ["9"]> = ["3", "2"].
  */
 type SumOfTuple<
   A extends Tuple,
@@ -145,20 +148,20 @@ type SumOfTuple<
   >;
 
 /**
- * Sum<112, 82> = '194'.
+ * Sum<112, 82> = "194".
  */
 type Sum<A extends NumberLike, B extends NumberLike> = Join<
   SumOfTuple<Split<ToString<A>>, Split<ToString<B>>>
 >;
 
 type cases = [
-  Expect<Equal<Sum<2, 3>, '5'>>,
-  Expect<Equal<Sum<'13', '21'>, '34'>>,
-  Expect<Equal<Sum<'328', 7>, '335'>>,
-  Expect<Equal<Sum<1_000_000_000_000n, '123'>, '1000000000123'>>,
-  Expect<Equal<Sum<9999, 1>, '10000'>>,
-  Expect<Equal<Sum<4325234, '39532'>, '4364766'>>,
-  Expect<Equal<Sum<728, 0>, '728'>>,
-  Expect<Equal<Sum<'0', 213>, '213'>>,
-  Expect<Equal<Sum<0, '0'>, '0'>>,
+  Expect<Equal<Sum<2, 3>, "5">>,
+  Expect<Equal<Sum<"13", "21">, "34">>,
+  Expect<Equal<Sum<"328", 7>, "335">>,
+  Expect<Equal<Sum<1_000_000_000_000n, "123">, "1000000000123">>,
+  Expect<Equal<Sum<9999, 1>, "10000">>,
+  Expect<Equal<Sum<4325234, "39532">, "4364766">>,
+  Expect<Equal<Sum<728, 0>, "728">>,
+  Expect<Equal<Sum<"0", 213>, "213">>,
+  Expect<Equal<Sum<0, "0">, "0">>,
 ];
