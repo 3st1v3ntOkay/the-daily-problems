@@ -1,9 +1,9 @@
 # The Daily Problems
 
-> :construction_worker: **Wanring:**</br>
+> :construction_worker: **Wanring**</br>
 > This repo is still under development
 >
-> :mega: **Information:**</br>
+> :mega: **Information**</br>
 > Support language for spanish and english speakers
 
 **Spanish**
@@ -18,7 +18,7 @@ The purpose of this project is mainly to store algorithms and algorithmic soluti
 
 ## Algorithms
 
-> :mega: **Information:**
+> :mega: **Information**</br>
 > Algorithms written in JavaScript and TypeScript
 
 **Spanish**
@@ -40,7 +40,7 @@ People related to the topic that I recommend.
 
 ## Guides
 
-> :mega: **Information:**
+> :mega: **Information**</br>
 > I could add new roadmaps, guides, etc. over time
 
 **Spanish**
