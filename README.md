@@ -31,12 +31,12 @@ Gente relacionada al tema que recomiendo.
 
 People related to the topic that I recommend.
 
-- [NeetCode](https://www.youtube.com/@NeetCode)
-- [NeetCodeIO](https://www.youtube.com/@NeetCodeIO)
-- [Coderbyte](https://www.youtube.com/@CoderbyteDevelopers)
-- [Back To Back SWE](https://www.youtube.com/@BackToBackSWE)
-- [Matt Pocock](https://www.youtube.com/@mattpocockuk)
-- [Andrew Burgess](https://www.youtube.com/@andrew-burgess)
+1. **[NeetCode](https://www.youtube.com/@NeetCode)**
+2. **[NeetCodeIO](https://www.youtube.com/@NeetCodeIO)**
+3. **[Coderbyte](https://www.youtube.com/@CoderbyteDevelopers)**
+4. **[Back To Back SWE](https://www.youtube.com/@BackToBackSWE)**
+5. **[Matt Pocock](https://www.youtube.com/@mattpocockuk)**
+6. **[Andrew Burgess](https://www.youtube.com/@andrew-burgess)**
 
 ## Guides
 
@@ -53,9 +53,9 @@ Guías de aprendizaje de alta calidad.
 
 High quality learning guides.
 
-- [DSA](https://www.w3schools.com/dsa/index.php)
-- [Data Structures & Algorithms](https://roadmap.sh/datastructures-and-algorithms)
-- [NeetCode](https://neetcode.io/roadmap)
+1. **[DSA](https://www.w3schools.com/dsa/index.php)**
+2. **[Data Structures & Algorithms](https://roadmap.sh/datastructures-and-algorithms)**
+3. **[NeetCode](https://neetcode.io/roadmap)**
 
 ## Extras
 
@@ -69,6 +69,6 @@ Cosas que me encontre que te podrian resultar curioso.
 
 Things I found that you might find curious.
 
-- [GitHub Flavored Markdown: How to make a styled admonition box in a Gist?](https://stackoverflow.com/questions/50544499/github-flavored-markdown-how-to-make-a-styled-admonition-box-in-a-gist)
+1. **[GitHub Flavored Markdown: How to make a styled admonition box in a Gist?](https://stackoverflow.com/questions/50544499/github-flavored-markdown-how-to-make-a-styled-admonition-box-in-a-gist)**
 
-- [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/tree/master#warning)
+2. **[emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/tree/master#warning)**
