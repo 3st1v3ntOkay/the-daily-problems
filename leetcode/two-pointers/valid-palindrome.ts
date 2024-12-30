@@ -11,7 +11,8 @@ function isPalindrome(s: string): boolean {
     }
     else if (s[left].toLowerCase() !== s[right].toLowerCase()) {
       return false;
-    } else {
+    }
+    else {
       left++;
       right--;
     }
