@@ -1,7 +1,9 @@
-import { TrieNode } from "../_data/trie";
+import { TrieNode } from "../_data/Trie.js";
 
 // its name comes from re"trie"val
 class Trie {
+  public root: TrieNode;
+
   constructor() {
     this.root = new TrieNode();
   }

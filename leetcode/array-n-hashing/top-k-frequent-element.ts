@@ -1,30 +1,30 @@
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {number[]}
- */
-const topKFrequent = function (nums, k) {
-  if (!nums.length) return;
-  let auth = new Map();
+function topKFrequent(nums: number[], k: number): number[] {
+  if (!nums.length) {
+    return [];
+  }
+
+  let auth = new Map<number, number>();
 
   for (let i = 0; i < nums.length; i++) {
     let number = nums[i];
 
     if (auth.has(number)) {
-      auth.set(number, auth.get(number) + 1);
+      auth.set(number, auth.get(number)! + 1);
     } else {
       auth.set(number, 1);
     }
   }
 
-  let array = [];
+  let array: number[][] = [];
+
   for (let value of auth) {
     array = [...array, value];
   }
 
   array.sort((a, b) => b[1] - a[1]);
 
-  let newArray = [];
+  let newArray: number[] = [];
+
   for (let value of array) {
     newArray = [...newArray, value[0]];
   }
@@ -32,4 +32,7 @@ const topKFrequent = function (nums, k) {
   return newArray.slice(0, k);
 };
 
-topKFrequent([1, 1, 1, 2, 2, 3], 2);
+const input: number[] = [1, 1, 1, 2, 2, 3];
+const k: number = 2;
+
+topKFrequent(input, k);

@@ -1,13 +1,4 @@
-class Trie{
-  constructor() {
-    this.children = new Map();
-    this.endOfWord = false;
-  }
-
-  setEnd() {
-    this.endOfWord = true;
-  }
-}
+import { TrieNode } from "../_data/Trie"
 
 /*
   TODO:
@@ -17,7 +8,7 @@ class Trie{
 
 class WordDictionary {
   constructor() {
-    this.root = new Trie();
+    this.root = new TrieNode();
   }
 
   /**
@@ -26,10 +17,10 @@ class WordDictionary {
   */
   addWord(word) {
     let current = this.root;
-    
+
     for (let char of word) {
       if (!current.children.has(char)) {
-        current.children.set(char, new Trie());
+        current.children.set(char, new TrieNode());
       }
 
       current = current.children.get(char);
@@ -62,7 +53,7 @@ class WordDictionary {
               return true;
             }
           }
-          
+
           return false;
         } else {
           if (!current.children.has(char)) {

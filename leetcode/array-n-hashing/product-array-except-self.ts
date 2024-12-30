@@ -1,45 +1,44 @@
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
-
 // ? Muy costoso de ejecutar, se podria mejorar haciendo memorizacion
-const productExceptSelf1 = function (nums) {
-  let array = [...nums];
-  let newArray = [];
+function productExceptSelf(nums: number[]): number[] {
+  let array: number[] = [...nums];
+  let newArray: number[] = [];
 
   for (let i = 0; i < nums.length; i++) {
-    let prefix = array.slice(i + 1);
-    let postfix = array.slice(0, i);
-    let fix = [...prefix, ...postfix].reduce((c, n) => c * n);
+    let prefix: number[] = array.slice(i + 1);
+    let postfix: number[] = array.slice(0, i);
+
+    let fix: number = [...prefix, ...postfix].reduce((c, n) => c * n);
 
     newArray = [...newArray, fix];
   }
 
   return newArray;
-};
+}
 
 // ? La mejor solucion en cuanto a la memoria
-const productExceptSelf2 = function (nums) {
-  let prefix = [];
+function productExceptSelfAlt1(nums: number[]): number[] {
+  let prefix: number[] = [];
+
   for (let i = 0; i < nums.length; i++) {
     if (i === 0) {
       prefix[i] = 1;
-    } else {
+    }
+    else {
       prefix[i] = nums[i - 1] * prefix[i - 1];
     }
   }
 
-  let suffix = [];
+  let suffix: number[] = [];
   for (let i = nums.length - 1; i >= 0; i--) {
     if (i === nums.length - 1) {
       suffix[i] = 1;
-    } else {
+    }
+    else {
       suffix[i] = nums[i + 1] * suffix[i + 1];
     }
   }
 
-  let result = [];
+  let result: number[] = [];
   for (let i = 0; i < nums.length; i++) {
     result[i] = prefix[i] * suffix[i];
   }
@@ -48,30 +47,34 @@ const productExceptSelf2 = function (nums) {
 };
 
 // ? La mejor solucion en cuanto a la ejecucion
-const productExceptSelf3 = function (nums) {
-  let resultArr = [];
+function productExceptSelfAlt2(nums: number[]): number[] {
+  let resultArr: number[] = [];
 
   for (let i = 0; i < nums.length; i++) {
-    let productVal = nums[i];
+    let productVal: number = nums[i];
 
     if (resultArr.length !== 0) {
       productVal = productVal * resultArr[i - 1];
     }
+
     resultArr.push(productVal);
   }
 
-  let productVal = 1;
-  let i = nums.length - 1;
+  let productVal: number = 1;
+  let i: number = nums.length - 1;
 
   for (i; i > 0; i--) {
     resultArr[i] = resultArr[i - 1] * productVal;
     productVal = nums[i] * productVal;
   }
+
   resultArr[i] = productVal;
 
   return resultArr;
 };
 
-productExceptSelf1([1, 2, 3, 4]);
-productExceptSelf2([1, 2, 3, 4]);
-productExceptSelf3([1, 2, 3, 4]);
+const input: number[] = [1, 2, 3, 4];
+
+productExceptSelf(input);
+productExceptSelfAlt1(input);
+productExceptSelfAlt2(input);

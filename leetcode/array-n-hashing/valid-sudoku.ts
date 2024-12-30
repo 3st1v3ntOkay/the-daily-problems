@@ -1,12 +1,8 @@
-/**
- * @param {character[][]} board
- * @return {boolean}
- */
-const isValidSudoku = function (board) {
+function isValidSudoku(board: string[][]): boolean {
   for (let x = 0; x < 9; x++) {
-    let row = new Set();
-    let col = new Set();
-    let grd = new Set();
+    let row = new Set<string>();
+    let col = new Set<string>();
+    let grd = new Set<string>();
 
     for (let y = 0; y < 9; y++) {
       let rowBox = board[x][y];
@@ -34,9 +30,9 @@ const isValidSudoku = function (board) {
   }
 
   return true;
-};
+}
 
-const board = [
+const input = [
   ["5", "3", ".", ".", "7", ".", ".", ".", "."],
   ["6", ".", ".", "1", "9", "5", ".", ".", "."],
   [".", "9", "8", ".", ".", ".", ".", "6", "."],
@@ -48,4 +44,4 @@ const board = [
   [".", ".", ".", ".", "8", ".", ".", "7", "9"],
 ];
 
-isValidSudoku(board);
+isValidSudoku(input);
