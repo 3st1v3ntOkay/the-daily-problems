@@ -21,14 +21,8 @@
     "noUncheckedSideEffectImports": true,
     "baseUrl": ".",
     "paths": {
-      "@leetcode/*": [
-        "./leetcode/*",
-      ],
-      "@typescript/*": [
-        "./typescript/*",
-      ],
-      "@algorithms/*": [
-        "./algorithms/*",
+      "@/*": [
+        "./src/*",
       ],
     },
   },
