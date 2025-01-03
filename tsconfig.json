@@ -1,20 +1,32 @@
 {
   "compilerOptions": {
-    "target": "ES2024",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
     "module": "ESNext",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitThis": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable",
+    ],
     "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
     "baseUrl": ".",
     "paths": {
-      "@leetcode/*": [
-        "./leetcode/*",
-      ],
-      "@typescript/*": [
-        "./typescript/*",
+      "@/*": [
+        "./src/*",
       ],
     },
   },
+  "include": [
+    "src",
+  ],
 }
