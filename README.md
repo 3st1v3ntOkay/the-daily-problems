@@ -72,3 +72,13 @@ Things I found that you might find curious.
 1. **[GitHub Flavored Markdown: How to make a styled admonition box in a Gist?](https://stackoverflow.com/questions/50544499/github-flavored-markdown-how-to-make-a-styled-admonition-box-in-a-gist)**
 
 2. **[emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/tree/master#warning)**
+
+## Research about the current project
+
+Here I left a markdown file where I will write down things I'm studying to have deeply understand.
+
+1. [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+2. [TSConfig Reference](https://www.typescriptlang.org/tsconfig/)
+3. [json.schemastore.org](https://json.schemastore.org/tsconfig)
+4. [The TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet)
+5. [Configuración de Typescript](https://codingpotions.com/typescript-configuracion/)
