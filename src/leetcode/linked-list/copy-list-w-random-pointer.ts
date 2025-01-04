@@ -1,23 +1,30 @@
+type TNext = Node | null;
+type TRandom = number | null;
+
 class Node {
-  constructor(val, next, random) {
-    this.val = (val === undefined ? 0 : val);
-    this.next = (next === undefined ? null : next);
-    this.random = (random === undefined ? null : random);
+  public val: number;
+  public next: TNext;
+  public random: TRandom;
+
+  constructor(
+    val?: number,
+    next?: TNext,
+    random?: TRandom,
+  ) {
+    this.val = val ?? 0;
+    this.next = next ?? null;
+    this.random = random ?? null;
   }
 }
 
-/**
- * @param {Node} head
- * @return {Node}
- */
-const copyRandomList = function(head) {
+function copyRandomList(head: Node): Node {
   let oldToCopy = new Map();
+  let current: TNext = head;
 
-  let current = head;
   while (current) {
     let copy = new Node(current.val);
     oldToCopy.set(current, copy)
-    current = current.next
+    current = current.next;
   }
 
   current = head;
@@ -25,7 +32,7 @@ const copyRandomList = function(head) {
     let copy = oldToCopy.get(current);
     copy.next = oldToCopy.get(current.next) || null;
     copy.random = oldToCopy.get(current.random) || null;
-    current = current.next
+    current = current.next;
   }
 
   console.log(oldToCopy.get(head))
@@ -50,4 +57,4 @@ c.random = 4;
 d.next = e;
 d.random = 2;
 
-copyRandomList(a);
+console.log(copyRandomList(a));

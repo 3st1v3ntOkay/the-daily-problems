@@ -1,19 +1,23 @@
 import {
   LinkedList,
   addList,
-} from "../_data/LinkedList.js"
+} from "./data/LinkedList"
 
-const myAddTwoNumbers = function (l1: any, l2: any) {
-  let stack1 = [], stack2 = [];
+function myAddTwoNumbers(
+  linkedList1: TInput,
+  linkedList2: TInput,
+): TInput {
+  let stack1 = [];
+  let stack2 = [];
 
-  while (l1) {
-    stack1.unshift(l1.val);
-    l1 = l1.next;
+  while (linkedList1) {
+    stack1.unshift(linkedList1.val);
+    linkedList1 = linkedList1.next;
   }
 
-  while (l2) {
-    stack2.unshift(l2.val);
-    l2 = l2.next;
+  while (linkedList2) {
+    stack2.unshift(linkedList2.val);
+    linkedList2 = linkedList2.next;
   }
 
   const sum = Number(stack1.join("")) + Number(stack2.join(""))
@@ -31,7 +35,7 @@ const myAddTwoNumbers = function (l1: any, l2: any) {
 
     if (res) {
       pivot.next = node;
-      pivot = pivot.next;
+      pivot = pivot!.next;
     } else {
       res = node;
       pivot = res;
@@ -42,43 +46,44 @@ const myAddTwoNumbers = function (l1: any, l2: any) {
   return res
 }; // it just fail for 3 test cases
 
-const addTwoNumbers = function (
-  l1: ListNode | null,
-  l2: ListNode | null,
-): ListNode | null {
-  // @neetcode video
-  let dummy = new ListNode(),
-    current = dummy;
+type TInput = LinkedList | null;
+
+// @neetcode video
+function addTwoNumbers(
+  linkedList1: TInput,
+  linkedList2: TInput,
+): TInput {
+  let dummy = new LinkedList();
+  let current = dummy;
 
   let carry = 0;
-  while (l1 || l2) {
-    let v1 = l1 ? l1.val : 0;
-    let v2 = l2 ? l2.val : 0;
+  while (linkedList1 || linkedList2) {
+    let v1 = linkedList1 ? linkedList1.val : 0;
+    let v2 = linkedList2 ? linkedList2.val : 0;
 
     let val = v1 + v2 + carry;
     carry = Math.floor(val / 10);
     val = val % 10;
 
-    current.next = new ListNode(val);
+    current.next = new LinkedList(val);
 
     current = current.next;
-    l1 = l1 ? l1.next : null;
-    l2 = l2 ? l2.next : null;
+    linkedList1 = linkedList1 ? linkedList1.next : null;
+    linkedList2 = linkedList2 ? linkedList2.next : null;
   }
 
   // @Akhilesh21 help
   if (carry > 0) {
-    current.next = new ListNode(carry);
+    current.next = new LinkedList(carry);
   }
 
   return dummy.next;
 }
 
-const l1: ListNode = addList(2, 4, 3);
-const l2: ListNode = addList(5, 6, 4);
+const input1: LinkedList = addList(2, 4, 3);
+const input2: LinkedList = addList(5, 6, 4);
 
-addTwoNumbers(l1, l2);
-
+console.log(addTwoNumbers(input1, input2));
 
 /* dummie way, pffff
 
