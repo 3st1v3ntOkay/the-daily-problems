@@ -44,7 +44,7 @@ function threeSum(nums: number[]): number[][] {
 
 const input: number[] = [-1, 0, 1, 2, -1, -4];
 
-threeSum(input);
+console.log(threeSum(input));
 
 //  3 Sum | Brute - Better - Optimal with Codes: https://www.youtube.com/watch?v=DhFh8Kw7ymk
 //  Most Common Concepts for Coding Interviews: https://www.youtube.com/watch?v=UrcwDOEBzZE

@@ -33,4 +33,4 @@ function isAlphaNumeric(char: string): boolean {
 
 const input: string = "eye";
 
-isPalindrome(input);
+console.log(isPalindrome(input));

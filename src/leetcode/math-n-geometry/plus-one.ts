@@ -37,4 +37,4 @@ function plusOne(digits: number[]): number[] {
 
 const input: number[] = [4, 3, 2, 1];
 
-plusOne(input);
+console.log(plusOne(input));

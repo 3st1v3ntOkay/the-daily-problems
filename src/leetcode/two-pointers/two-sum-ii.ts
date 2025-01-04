@@ -25,4 +25,4 @@ function TwoSumII(
 const input: number[] = [2, 11, 15, 7];
 const target: number = 9;
 
-TwoSumII(input, target);
+console.log(TwoSumII(input, target));

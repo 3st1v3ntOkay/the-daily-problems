@@ -19,4 +19,4 @@ function isAnagram(s: string, t: string): boolean {
   return true;
 };
 
-isAnagram("anagram", "nagaram");
+console.log(isAnagram("anagram", "nagaram"));

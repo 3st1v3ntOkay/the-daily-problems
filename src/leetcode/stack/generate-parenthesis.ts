@@ -30,4 +30,4 @@ function generateParenthesis(n: number): string[] {
 
 const input: number = 2;
 
-generateParenthesis(input);
+console.log(generateParenthesis(input));

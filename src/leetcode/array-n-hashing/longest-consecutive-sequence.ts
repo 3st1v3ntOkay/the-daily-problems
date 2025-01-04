@@ -45,5 +45,5 @@ function longestConsecutiveAlt1(nums: number[]): number {
 
 const input = [100, 4, 200, 1, 3, 2];
 
-longestConsecutive(input);
-longestConsecutiveAlt1(input);
+console.log(longestConsecutive(input));
+console.log(longestConsecutiveAlt1(input));

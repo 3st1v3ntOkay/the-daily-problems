@@ -29,5 +29,5 @@ function evalRPN(tokens: string[]): number[] {
 const input1: string[] = ["2", "1", "+", "3", "*"];
 const input2: string[] = ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"];
 
-evalRPN(input1);
-evalRPN(input2);
+console.log(evalRPN(input1));
+console.log(evalRPN(input2));

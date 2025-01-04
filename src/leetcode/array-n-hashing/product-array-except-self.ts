@@ -75,6 +75,6 @@ function productExceptSelfAlt2(nums: number[]): number[] {
 
 const input: number[] = [1, 2, 3, 4];
 
-productExceptSelf(input);
-productExceptSelfAlt1(input);
-productExceptSelfAlt2(input);
+console.log(productExceptSelf(input));
+console.log(productExceptSelfAlt1(input));
+console.log(productExceptSelfAlt2(input));

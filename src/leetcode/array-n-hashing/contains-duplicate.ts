@@ -6,4 +6,4 @@ function containsDuplicate(nums: number[]) {
 
 const ArrayNums: number[] = [1, 2, 3, 1];
 
-containsDuplicate(ArrayNums);
+console.log(containsDuplicate(ArrayNums));

@@ -28,4 +28,4 @@ const target: number = 12;
 const position: number[] = [10, 8, 0, 5, 3];
 const speed: number[] = [2, 4, 1, 1, 3];
 
-carFleet(target, position, speed);
+console.log(carFleet(target, position, speed));

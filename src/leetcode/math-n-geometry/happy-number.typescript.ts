@@ -55,5 +55,5 @@ function isHappyAlt(n: number): boolean {
 
 const input: number = 19;
 
-isHappy(input);
-isHappyAlt(input);
+console.log(isHappy(input));
+console.log(isHappyAlt(input));

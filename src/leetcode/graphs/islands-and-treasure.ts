@@ -65,4 +65,4 @@ const input = [
   ]
 */
 
-const example1 = IslandsAndTreasure(input);
+console.log(IslandsAndTreasure(input));

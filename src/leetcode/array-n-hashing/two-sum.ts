@@ -47,6 +47,6 @@ function twoSumAlt2(nums: number[], target: number): number[] {
 const numbers = [2, 11, 15, 7];
 const target = 9;
 
-twoSum(numbers, target);
-twoSumAlt(numbers, target);
-twoSumAlt2(numbers, target);
+console.log(twoSum(numbers, target));
+console.log(twoSumAlt(numbers, target));
+console.log(twoSumAlt2(numbers, target));

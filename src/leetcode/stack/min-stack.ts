@@ -70,5 +70,5 @@ example.push(-3);
 example.push(4);
 example.push("v");
 
-example.top();
-example.getMin();
+console.log(example.top());
+console.log(example.getMin());

@@ -29,7 +29,7 @@ function kClosest(points: number[][], k: number): number[][] {
     finalPoints.push([value![1], value![2]]);
     k -= 1;
   }
-  
+
   return finalPoints;
 }
 
@@ -37,4 +37,5 @@ function kClosest(points: number[][], k: number): number[][] {
 
 const points = [[1, 3], [-2, 2]];
 const k = 1;
-kClosest(points, k);
+
+console.log(kClosest(points, k));

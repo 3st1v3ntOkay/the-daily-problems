@@ -35,4 +35,4 @@ function topKFrequent(nums: number[], k: number): number[] {
 const input: number[] = [1, 1, 1, 2, 2, 3];
 const k: number = 2;
 
-topKFrequent(input, k);
+console.log(topKFrequent(input, k));

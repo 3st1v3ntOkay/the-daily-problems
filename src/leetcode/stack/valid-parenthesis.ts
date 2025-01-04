@@ -41,4 +41,4 @@ function isValid(s: string): boolean | void {
 
 const input: string = "{{{{{{[()]}}}}}}";
 
-isValid(input);
+console.log(isValid(input));

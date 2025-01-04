@@ -44,4 +44,4 @@ const input = [
   [".", ".", ".", ".", "8", ".", ".", "7", "9"],
 ];
 
-isValidSudoku(input);
+console.log(isValidSudoku(input));

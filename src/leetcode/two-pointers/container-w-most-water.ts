@@ -25,4 +25,4 @@ function maxArea(height: number[]): number {
 
 const input: number[] = [1, 8, 6, 2, 5, 4, 8, 3, 7];
 
-maxArea(input);
+console.log(maxArea(input));
