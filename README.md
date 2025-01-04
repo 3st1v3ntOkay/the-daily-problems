@@ -77,8 +77,8 @@ Things I found that you might find curious.
 
 Here I left a markdown file where I will write down things I'm studying to have deeply understand.
 
-1. [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
-2. [TSConfig Reference](https://www.typescriptlang.org/tsconfig/)
-3. [json.schemastore.org](https://json.schemastore.org/tsconfig)
-4. [The TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet)
-5. [Configuración de Typescript](https://codingpotions.com/typescript-configuracion/)
+1. **[What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)**
+2. **[TSConfig Reference](https://www.typescriptlang.org/tsconfig/)**
+3. **[json.schemastore.org](https://json.schemastore.org/tsconfig)**
+4. **[The TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet)**
+5. **[Configuración de Typescript](https://codingpotions.com/typescript-configuracion/)**
