@@ -1,9 +1,11 @@
-import { serve } from "bun"
+import { serve } from "bun";
+import { textSync } from "figlet";
 
 const server = serve({
   port: 3000,
   fetch(_req: Request) {
-    return new Response("Bun!");
+    const body = textSync("Bun!");
+    return new Response(body);
   },
 });
 
