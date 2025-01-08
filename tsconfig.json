@@ -9,7 +9,7 @@
       "DOM.Iterable",
     ],
     "skipLibCheck": true,
-    "moduleResolution": "Bundler",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
@@ -25,6 +25,10 @@
         "./src/*",
       ],
     },
+    // check this bun recommendations + consider use ESNext instead ES2020
+    "noPropertyAccessFromIndexSignature": true,
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
   },
   "include": [
     "src",
