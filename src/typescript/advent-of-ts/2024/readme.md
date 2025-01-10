@@ -15,3 +15,5 @@ My summary of the advent of ts 2024
 <!-- line -->
 <!-- line -->
 <!-- line -->
+
+**[help](https://github.com/hozlucas28/AdventTS-Solutions-2024/tree/Master)**
