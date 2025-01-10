@@ -17,3 +17,9 @@ My summary of the advent of ts 2024
 <!-- line -->
 
 **[help](https://github.com/hozlucas28/AdventTS-Solutions-2024/tree/Master)**
+
+## Problems
+
+### Day 12
+
+**[@sgrishchenko](https://www.adventofts.com/events/2024/12/solutions/3039)**
