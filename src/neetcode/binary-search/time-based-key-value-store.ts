@@ -2,61 +2,68 @@
 // @stackoverflow: https://stackoverflow.com/questions/41715994/how-to-document-ecma6-classes-with-jsdoc
 
 // @adampjl: https://leetcode.com/problems/time-based-key-value-store/solutions/4022762/typescript-map-of-pairs-bfs/
+interface TimeStamp {
+  value: string;
+  time: number;
+}
+
 class myTimeMap {
-  #data = new Map();
+  #data = new Map<string, TimeStamp[]>();
 
-  constructor() {}
+  constructor() { }
 
-  /**
-   * constructor.
-   * @param {string} key
-   * @param {string} value
-   * @param {number} timestamp
-   *
-   * @returns {void}
-   */
-  set(key, value, timestamp) {
+  set(
+    key: string,
+    value: string,
+    timestamp: number,
+  ): void {
     let timeStamps = this.#data.get(key);
     console.log(timeStamps);
 
-    const timeStamp = { value: value, time: timestamp };
+    const timeStamp: TimeStamp = {
+      value: value,
+      time: timestamp,
+    }
     console.log(timeStamp);
 
     if (!timeStamps) {
-      timeStamps = [timeStamp];
-      this.#data.set(key, timeStamp);
-    } else {
+      // timeStamps = [timeStamp];
+      this.#data.set(key, [timeStamp]);
+    }
+    else {
       timeStamps.push(timeStamp);
     }
   }
 
-  /**
-   * constructor.
-   * @param {string} key
-   * @param {number} timestamp
-   *
-   * @returns {void}
-   */
-  get(key, timestamp) {
+  get(key: string, timestamp: number): string {
     const timeStamps = this.#data.get(key);
 
-    if (!timeStamps) return "";
+    if (!timeStamps) {
+      return "";
+    }
+
     return this.#binarySearchForTimeStamp(timestamp, timeStamps);
   }
 
-  #binarySearchForTimeStamp(timestamp, timestamps) {
-    let left = 0;
-    let right = timestamps.length - 1;
-    let middle = Math.floor((left + right) / 2);
-    let closest = null;
+  #binarySearchForTimeStamp(
+    timestamp: number,
+    timestamps: TimeStamp[]
+  ): string {
+    let left: number = 0;
+    let right: number = timestamps.length - 1;
+
+    let middle: number = Math.floor((left + right) / 2);
+    let closest: null | number = null;
 
     while (left <= right) {
       if (timestamps[middle].time === timestamp) {
         return timestamps[middle].value;
-      } else if (timestamps[middle].time < timestamp) {
+      }
+      else if (timestamps[middle].time < timestamp) {
         closest = middle;
         left = middle + 1;
-      } else {
+      }
+      else {
         right = middle - 1;
       }
 
