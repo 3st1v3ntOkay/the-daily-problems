@@ -3,7 +3,9 @@ import type {
   Expect,
 } from "@type-challenges/utils";
 
-type PerfReview = unknown;
+type PerfReview<T> =
+  T extends AsyncGenerator<infer U> ? U : never;
+// Generator<infer U>, this wors but when the generation function is not async
 
 async function* numberAsyncGenerator() {
   yield 1;
@@ -18,8 +20,8 @@ type t0_expected = 1 | 2 | 3;
 type t0 = Expect<Equal<t0_actual, t0_expected>>;
 
 async function* stringAsyncGenerator() {
-  yield '1%';
-  yield '2%';
+  yield "1%";
+  yield "2%";
 }
 
 type t1_type = typeof stringAsyncGenerator;
