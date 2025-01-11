@@ -3,11 +3,7 @@ import type {
   Expect,
 } from "@type-challenges/utils";
 
-// @sgrishchenko
-type Excuse<T extends Record<string, string>> =
-  new (dict: T) => {
-    [K in keyof T]: `${K & string}: ${T[K]}`
-  }[keyof T];
+import type { Excuse } from "../day-11";
 
 const existingExcuses = {
   karaoke: ["Kendrick Lamar, Opeth"],

@@ -3,9 +3,7 @@ import type {
   Expect,
 } from "@type-challenges/utils";
 
-type Demand<in out T> = {
-  demand: T;
-}
+import type { Demand } from "../day-13";
 
 declare let demand1: Demand<unknown>;
 declare let demand2: Demand<string>;

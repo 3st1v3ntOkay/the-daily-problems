@@ -3,21 +3,7 @@ import type {
   Expect,
 } from "@type-challenges/utils";
 
-type TypesAllowed = number | string;
-
-type TRoute<TValue> =
-  TValue extends TypesAllowed
-  ? TValue
-  : never;
-
-const createRoute = <Route>(
-  author: string,
-  route: TRoute<Route>,
-): TRoute<Route> => {
-  console.log(`[createRoute] route created by ${author} at ${Date.now()}`);
-
-  return route;
-}
+import { createRoute } from "../day-6";
 
 const oneMill = createRoute("🌩️Donner", 100_000_000);
 type t0_actual = typeof oneMill;

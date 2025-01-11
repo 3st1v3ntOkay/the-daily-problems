@@ -3,9 +3,7 @@ import type {
   Expect,
 } from "@type-challenges/utils";
 
-type PerfReview<T> =
-  T extends AsyncGenerator<infer U> ? U : never;
-// Generator<infer U>, this wors but when the generation function is not async
+import type { PerfReview } from "../day-14";
 
 async function* numberAsyncGenerator() {
   yield 1;

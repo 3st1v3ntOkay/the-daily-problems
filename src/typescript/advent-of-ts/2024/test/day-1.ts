@@ -3,7 +3,7 @@ import type {
   Expect,
 } from "@type-challenges/utils";
 
-type Demand = number;
+import type { Demand } from "../day-1";
 
 type t0_actual = Demand;
 type t0_expected = number;

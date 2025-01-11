@@ -3,11 +3,7 @@ import type {
   Expect,
 } from "@type-challenges/utils";
 
-const createRoute = <T>(author: string, route: T): T => {
-  console.log(`[createRoute] route created by ${author} at ${Date.now()}`);
-
-  return route;
-}
+import { createRoute } from "../day-5";
 
 const oneMill = createRoute("💨Dasher", 100_000_000);
 type t0_actual = typeof oneMill;

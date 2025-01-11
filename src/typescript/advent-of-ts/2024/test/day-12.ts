@@ -3,33 +3,8 @@ import type {
   Expect,
 } from "@type-challenges/utils";
 
-import type {
-  Names,
-} from "./data/day-12.data"
-
-// @sgrishchenko
-type NaughtyOrNice<
-  T extends string,
-  Result = "naughty",
-> = T extends `${infer Head}${infer Rest}`
-  ? NaughtyOrNice<Rest, Result extends "naughty" ? "nice" : "naughty">
-  : Result;
-
-type FormatNames<
-  T extends [string, string, string][],
-> = {
-    [K in keyof T]: T[K] extends [
-      infer Name extends string,
-      string,
-      `${infer Count extends number}`,
-    ]
-    ? {
-      name: Name;
-      count: Count;
-      rating: NaughtyOrNice<Name>;
-    }
-    : never;
-  }
+import type { Names } from "../data/day-12.data";
+import type { FormatNames } from "../day-12";
 
 type t0_actual = FormatNames<Names>["length"];
 type t0_expected = 31682;

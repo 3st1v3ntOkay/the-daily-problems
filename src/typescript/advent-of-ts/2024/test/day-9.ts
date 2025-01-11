@@ -12,18 +12,6 @@ import type {
   List,
 } from "santas-special-list";
 
-// thanks to @FuzeTox: https://www.youtube.com/@FuzeTox + check the error
-declare module "santas-special-list" {
-  type Status = "naughty" | "nice";
-
-  interface Child {
-    name: string;
-    status: Status;
-  }
-
-  type List = Array<Child>;
-}
-
 type t0_actual = Status;
 type t0_expected = "naughty" | "nice";
 
