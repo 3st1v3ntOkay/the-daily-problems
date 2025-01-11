@@ -1,8 +1,4 @@
-/**
- * @param {string} digits
- * @return {string[]}
- */
-const letterCombinations = function(digits) {
+function letterCombinations(digits: string): string[] {
   // if (!digits.length) {
   //   return "";
   // }
@@ -17,17 +13,17 @@ const letterCombinations = function(digits) {
   //   8: "tuv",
   //   9: "wxyz",
   // }
-  
+
   // let backup = [];
   // for (let letter of digits) {
   //   backup.push(letter);
   // }
-  
+
   // let alpha = [];
   // for (let key of backup) {
   //   alpha.push(keyboard[key]);
   // }
-  
+
   // let ultimate = [];
   // let counterCurr = 0,
   //     counterNext = 1;
@@ -39,8 +35,9 @@ const letterCombinations = function(digits) {
   //   }
   // }
 
-  let output = [];
-  const keyboard = {
+  let output: string[] = [];
+
+  const keyboard: Record<number, string> = {
     2: "abc",
     3: "def",
     4: "ghi",
@@ -51,16 +48,16 @@ const letterCombinations = function(digits) {
     9: "wxyz",
   }
 
-  /**
-   * @param {number} index 
-   * @param {string} currentString 
-   */
-  function backtrack(index, currentString) {
+  function backtrack(
+    index: number,
+    currentString: string,
+  ): void {
     if (currentString.length === digits.length) {
       output.push(currentString);
       return;
     }
 
+    // check this error
     for (let character of keyboard[digits[index]]) {
       backtrack(index + 1, currentString + character);
     }
@@ -73,5 +70,6 @@ const letterCombinations = function(digits) {
   return output;
 }
 
-const digits = "23";
-letterCombinations(digits);
+const input: string = "23";
+
+letterCombinations(input);

@@ -1,15 +1,15 @@
-/**
- * @param {number[]} nums
- * @return {number[][]}
- */
-const permute = function(nums) {
-  let result = [];
-  
-  function dfs(nums, result, index) {
+function permute(nums: number[]): number[][] {
+  let result: number[][] = [];
+
+  function dfs(
+    nums: number[],
+    result: number[][],
+    index: number,
+  ): void | number {
     if (index === nums.length - 1) {
       return result.push([...nums]);
     }
-    
+
     for (let i = index; i < nums.length; i++) {
       [nums[i], nums[index]] = [nums[index], nums[i]];
       dfs(nums, result, index + 1);
@@ -21,5 +21,5 @@ const permute = function(nums) {
   return result;
 }
 
-const nums = [1,2,3];
-permute(nums);
+const input: number[] = [1, 2, 3];
+permute(input);
