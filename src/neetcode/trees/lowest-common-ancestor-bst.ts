@@ -1,14 +1,34 @@
-import { TreeNode } from "./tree";
+// import { TreeNode } from "@/neetcode/_data/Tree";
 
-/**
- * @param {TreeNode} root
- * @param {TreeNode} p
- * @param {TreeNode} q
- * @return {TreeNode}
- */
-const mylowestCommonAncestor = function(root, p, q) {
-  if (!root) return -1;
-  let tempParent = root.val;
+type TNode = TreeNode | null;
+
+class TreeNode {
+  public val: number;
+  public left: TNode;
+  public right: TNode;
+
+  constructor(
+    val?: number,
+    left?: TNode,
+    right?: TNode,
+  ) {
+    this.val = val ?? 0;
+    this.left = left ?? null;
+    this.right = right ?? null;
+  }
+}
+
+// check the whole structure and reread the problem itself
+function mylowestCommonAncestor(
+  root: TreeNode,
+  p: TreeNode,
+  q: TreeNode,
+): number {
+  if (!root) {
+    return -1;
+  }
+
+  let tempParent: number = root.val;
 
   function dfs(root) {
     if (p === root.left) return;
@@ -29,16 +49,15 @@ const mylowestCommonAncestor = function(root, p, q) {
   }
 
   return -1;
-};
+}
 
-/**
- * @param {TreeNode} root
- * @param {TreeNode} p
- * @param {TreeNode} q
- * @return {TreeNode}
- */
-const lowestCommonAncestor = function(root, p, q) {
-  let current = root;
+// check the whole structure and reread the problem itself
+function lowestCommonAncestor(
+  root: TreeNode,
+  p: TreeNode,
+  q: TreeNode,
+): TreeNode | undefined {
+  let current: TNode = root;
 
   while (current) {
     if (p.val > current.val && q.val > current.val) {
@@ -51,10 +70,12 @@ const lowestCommonAncestor = function(root, p, q) {
       return current
     }
   }
-};
+}
 
-const p = 2, q = 8;
-const root = new TreeNode(4);
+const p: number = 2;
+const q: number = 8;
+
+const root: TreeNode = new TreeNode(4);
 
 root.left = new TreeNode(2);
 
@@ -69,10 +90,14 @@ root.right.right = new TreeNode(9);
 
 lowestCommonAncestor(root, p, q);
 
-const p2 = 2, q2 = 4;
+const p2: number = 2;
+const q2: number = 4;
 lowestCommonAncestor(root, p2, q2);
 
-const p3 = 2, q3 = 1;
-const root2 = new TreeNode(2, 1);
+const p3: number = 2;
+const q3: number = 1;
+const root2 = new TreeNode(2);
+
+root2.left = new TreeNode(1);
 
 lowestCommonAncestor(root2, p3, q3);

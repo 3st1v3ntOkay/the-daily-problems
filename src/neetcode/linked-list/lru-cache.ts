@@ -1,7 +1,16 @@
+type TNode = Node | null;
+
 class Node {
-  constructor(key, val) {
+  public key: number;
+  public val: number;
+
+  public next: TNode;
+  public prev: TNode;
+
+  constructor(key: number, val: number) {
     this.key = key;
     this.val = val;
+
     this.next = null;
     this.prev = null;
   }
@@ -9,37 +18,24 @@ class Node {
 
 // @neetcode
 class LRUCache {
-  constructor(capacity) {
+  public capacity: number;
+  public cache: Map<any, any>;
+
+  public left: TNode;
+  public right: TNode;
+
+  constructor(capacity: number) {
     this.capacity = capacity;
     this.cache = new Map();
 
     this.left = new Node(0, 0);
     this.right = new Node(0, 0);
-    
+
     this.left.next = this.right;
     this.right.prev = this.left;
   }
 
-  remove(node) {
-    const prev = node.prev,
-      nxt = node.next;
-
-    prev.next = nxt;
-    nxt.prev = prev;
-  }
-
-  insert(node) {
-    const prev = this.right.prev,
-      nxt = this.right;
-
-    prev.next = node;
-    nxt.prev = node;
-
-    node.next = nxt;
-    node.prev = prev;
-  }
-
-  get(key) {
+  public get(key: number): number {
     if (this.cache.has(key)) {
       // nice tip from @EduAir
       const node = this.cache.get(key);
@@ -53,7 +49,20 @@ class LRUCache {
     return -1;
   }
 
-  put(key, value) {
+  public insert(node: TNode): void {
+    const prev = this.right!.prev; // check null error
+    const nxt = this.right;
+
+    // check null error
+    prev!.next = node;
+    nxt!.prev = node;
+
+    // check null error
+    node!.next = nxt;
+    node!.prev = prev;
+  }
+
+  public put(key: number, value: number): void {
     if (this.cache.has(key)) {
       this.remove(this.cache.get(key))
     }
@@ -63,11 +72,21 @@ class LRUCache {
     this.cache.set(key, node);
 
     if (this.cache.size > this.capacity) {
-      const lru = this.left.next;
-      
-      this.cache.delete(lru.key);
+      const lru = this.left!.next;
+
+      this.cache.delete(lru!.key);
       this.remove(lru);
     }
+  }
+
+  public remove(node: TNode): void {
+    // check null error
+    const prev = node!.prev;
+    const nxt = node!.next;
+
+    // check null error
+    prev!.next = nxt;
+    nxt!.prev = prev;
   }
 }
 
