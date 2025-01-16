@@ -292,11 +292,11 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
+1. **[@satohshi](https://www.adventofts.com/events/2024/16/solutions/2971)**
 
 > :mega: **Docs**
 
-1. **[@user](url)**
+1. **[Parameters<Type> Utility Types in TypeScript With Examples](https://cloudaffle.com/series/typescript-utility-types/parameters-utility-type-in-typescript/#:~:text=The%20Parameters%20utility%20type,manually%20write%20the%20types%20again.)**
 
 <!-- line -->
 <!-- line -->
@@ -310,11 +310,12 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
+1. **[@sgrishchenko](https://www.adventofts.com/events/2024/17/solutions/3040)**
+1. **[@satohshi](https://www.adventofts.com/events/2024/17/solutions/2970)**
 
 > :mega: **Docs**
 
-1. **[@user](url)**
+1. **[name](url)**
 
 <!-- line -->
 <!-- line -->
@@ -328,7 +329,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
+1. **[@satohshi](https://www.adventofts.com/events/2024/18/solutions/2969)**
 
 > :mega: **Docs**
 
