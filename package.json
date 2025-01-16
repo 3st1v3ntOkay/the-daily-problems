@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "bun run src/bun/index.ts",
+    "start": "bun run --watch src/bun/index.ts",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "math-n-geometry": "bun run --watch src/bun/rotate-image.ts"
   },
   "devDependencies": {
     "@type-challenges/utils": "0.1.1",
@@ -16,7 +17,7 @@
     "@types/figlet": "1.7.0",
     "typescript": "5.7.3",
     "vite": "6.0.7",
-    "vitest": "2.1.8"
+    "vitest": "3.0.1"
   },
   "dependencies": {
     "figlet": "1.8.0"
