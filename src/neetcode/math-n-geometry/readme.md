@@ -12,9 +12,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [Aaron Jeongwoo Kim](https://leetcode.com/problems/happy-number/solutions/2797909/three-simplest-solutions-floyds-cycle-fi-lzek)
-
-- [Aaron Jeongwoo Kim](https://leetcode.com/problems/happy-number/solutions/2797909/three-simplest-solutions-floyds-cycle-fi-lzek)
+- **[Aaron Jeongwoo Kim](https://leetcode.com/problems/happy-number/solutions/2797909/three-simplest-solutions-floyds-cycle-fi-lzek)**
 
 <!-- line -->
 <!-- line -->
@@ -32,9 +30,27 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-- [Aaron Jeongwoo Kim](https://leetcode.com/problems/happy-number/solutions/2797909/three-simplest-solutions-floyds-cycle-fi-lzek)
+- **[Aaron Jeongwoo Kim](https://leetcode.com/problems/happy-number/solutions/2797909/three-simplest-solutions-floyds-cycle-fi-lzek)**
 
-- [Aaron Jeongwoo Kim](https://leetcode.com/problems/happy-number/solutions/2797909/three-simplest-solutions-floyds-cycle-fi-lzek)
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 48. Rotate Image
+
+Main information ...
+
+- [Rotate Image](https://leetcode.com/problems/rotate-image/description/) leetcode link
+
+- [Rotate Image](https://neetcode.io/solutions/rotate-image) neetcode link
+
+- [Rotate Image](https://youtu.be/fMSJSS7eO1w) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[@user](url)**
+
+- **[@user](url)**
 
 <!-- line -->
 <!-- line -->
