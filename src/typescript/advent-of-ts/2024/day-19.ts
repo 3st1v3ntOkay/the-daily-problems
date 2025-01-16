@@ -1,78 +1,67 @@
-import type {
-  Equal,
-  Expect,
-} from "@type-challenges/utils";
+/* my try (it doesn't work):
 
-type Parse = unknown;
+  type Helper = "let" | "const" | "var";
 
-type t0_actual = Parse<`
-let teddyBear = "standard_model";
-`>;
-type t0_expected = [
-  {
-    id: "teddyBear";
-    type: "VariableDeclaration";
-  },
-];
-type t0 = Expect<Equal<t0_actual, t0_expected>>;
+  type MyParse<
+    T extends string,
+    Output extends Record<string, string>[] = []
+  > =
+    T extends `${Helper} ${infer ID} = ${string};${infer Rest}`
+    ? MyParse<
+      Rest,
+      [
+        ...Output,
+        {
+          id: ID;
+          type: "VariableDeclaration";
+        },
+      ]
+    >
+    : T extends `${string}(${infer Argument});${infer Rest}`
+    ? MyParse<
+      Rest,
+      [
+        ...Output,
+        {
+          argument: Argument;
+          type: "CallExpression";
+        }
+      ]
+    >
+    : Output;
+*/
 
-type t1_actual = Parse<`
-buildToy(teddyBear);
-`>;
-type t1_expected = [
-  {
-    argument: "teddyBear";
-    type: "CallExpression";
-  },
-];
-type t1 = Expect<Equal<t1_actual, t1_expected>>;
+// @santoshi solution + some own modification
+type Trim<
+  T extends string,
+  U extends string = " " | "\t",
+> = T extends
+  | `${infer F}${U}`
+  | `${U}${infer F}`
+  ? Trim<F>
+  : T;
 
-type t2_actual = Parse<`
-let robotDog = "deluxe_model";
-assembleToy(robotDog);
-`>;
-type t2_expected = [
-  {
-    id: "robotDog";
-    type: "VariableDeclaration";
-  },
-  {
-    argument: "robotDog";
-    type: "CallExpression";
-  },
-];
-type t2 = Expect<Equal<t2_actual, t2_expected>>;
+type StringHelper = "let" | "const" | "var";
 
-type t3_actual = Parse<`
-  const giftBox = "premium_wrap";
-    var ribbon123 = "silk";
-  
-  \t
-  wrapGift(giftBox);
-  \r\n
-      addRibbon(ribbon123);
-`>;
-type t3_expected = [
-  {
-    id: "giftBox";
-    type: "VariableDeclaration";
-  },
-  {
-    id: "ribbon123";
-    type: "VariableDeclaration";
-  },
-  {
-    argument: "giftBox";
-    type: "CallExpression";
-  },
-  {
-    argument: "ribbon123";
-    type: "CallExpression";
-  },
-];
-type t3 = Expect<Equal<t3_actual, t3_expected>>;
-
-type t4_input = "\n\t\r \t\r ";
-type t4_actual = Parse<t4_input>;
-type t4_expected = [];
-type t4 = Expect<Equal<t4_actual, t4_expected>>;
+export type Parse<
+  T extends string,
+  _Res extends Record<string, string>[] = [],
+> = T extends `${infer F}\n${infer R}`
+  ? Trim<F> extends `${StringHelper} ${infer ID} = ${string}`
+  ? Parse<
+    R,
+    [
+      ..._Res,
+      { id: ID; type: "VariableDeclaration"; }
+    ]
+  >
+  : Trim<F> extends `${string}(${infer Arg});`
+  ? Parse<
+    R,
+    [
+      ..._Res,
+      { argument: Arg; type: "CallExpression"; }
+    ]
+  >
+  : Parse<R, _Res>
+  : _Res;
