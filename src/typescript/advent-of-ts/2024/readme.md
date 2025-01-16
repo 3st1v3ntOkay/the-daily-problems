@@ -296,7 +296,7 @@ Main information ...
 
 > :mega: **Docs**
 
-1. **[Parameters<Type> Utility Types in TypeScript With Examples](https://cloudaffle.com/series/typescript-utility-types/parameters-utility-type-in-typescript/#:~:text=The%20Parameters%20utility%20type,manually%20write%20the%20types%20again.)**
+1. **[Parameters &lt;Type&gt; Utility Types in TypeScript With Examples](https://cloudaffle.com/series/typescript-utility-types/parameters-utility-type-in-typescript/#:~:text=The%20Parameters%20utility%20type,manually%20write%20the%20types%20again.)**
 
 <!-- line -->
 <!-- line -->
@@ -311,11 +311,8 @@ Main information ...
 > :mega: **Other Solutions**
 
 1. **[@sgrishchenko](https://www.adventofts.com/events/2024/17/solutions/3040)**
-1. **[@satohshi](https://www.adventofts.com/events/2024/17/solutions/2970)**
 
-> :mega: **Docs**
-
-1. **[name](url)**
+2. **[@satohshi](https://www.adventofts.com/events/2024/17/solutions/2970)**
 
 <!-- line -->
 <!-- line -->
@@ -331,10 +328,6 @@ Main information ...
 
 1. **[@satohshi](https://www.adventofts.com/events/2024/18/solutions/2969)**
 
-> :mega: **Docs**
-
-1. **[@user](url)**
-
 <!-- line -->
 <!-- line -->
 <!-- line -->
@@ -347,11 +340,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
-
-> :mega: **Docs**
-
-1. **[@user](url)**
+1. **[@satohshi](https://www.adventofts.com/events/2024/19/solutions/2968)**
 
 <!-- line -->
 <!-- line -->
@@ -365,11 +354,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
-
-> :mega: **Docs**
-
-1. **[@user](url)**
+1. **[@satohshi](https://www.adventofts.com/events/2024/20/solutions/2967)**
 
 <!-- line -->
 <!-- line -->
@@ -383,11 +368,7 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
-
-> :mega: **Docs**
-
-1. **[@user](url)**
+1. **[@satohshi](https://www.adventofts.com/events/2024/21/solutions/2966)**
 
 <!-- line -->
 <!-- line -->
