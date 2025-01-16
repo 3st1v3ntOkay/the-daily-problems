@@ -82,3 +82,5 @@ Here I left a markdown file where I will write down things I'm studying to have 
 3. **[json.schemastore.org](https://json.schemastore.org/tsconfig)**
 4. **[The TSConfig Cheat Sheet](https://www.totaltypescript.com/tsconfig-cheat-sheet)**
 5. **[Configuración de Typescript](https://codingpotions.com/typescript-configuracion/)**
+
+6. **[Watch mode](https://bun.sh/docs/runtime/hot)**
