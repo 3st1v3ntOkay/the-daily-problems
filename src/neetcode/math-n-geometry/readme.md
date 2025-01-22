@@ -55,3 +55,23 @@ Main information ...
 <!-- line -->
 <!-- line -->
 <!-- line -->
+
+## 73. Set Matrix Zeroes
+
+Main information ...
+
+- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) leetcode link
+
+- [Set Matrix Zeroes](https://neetcode.io/solutions/set-matrix-zeroes) neetcode link
+
+- [Set Matrix Zeroes](https://youtu.be/T41rL0L3Pnw) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[@user](url)**
+
+- **[@user](url)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
