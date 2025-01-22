@@ -9,15 +9,15 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "math-n-geometry": "bun run --watch src/bun/rotate-image.ts"
+    "math-n-geometry": "bun run --watch src/neetcode/math-n-geometry/pow.ts"
   },
   "devDependencies": {
     "@type-challenges/utils": "0.1.1",
-    "@types/bun": "1.1.16",
+    "@types/bun": "1.2.0",
     "@types/figlet": "1.7.0",
     "typescript": "5.7.3",
-    "vite": "6.0.7",
-    "vitest": "3.0.1"
+    "vite": "6.0.11",
+    "vitest": "3.0.3"
   },
   "dependencies": {
     "figlet": "1.8.0"
