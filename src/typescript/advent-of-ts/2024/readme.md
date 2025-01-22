@@ -382,11 +382,9 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
+1. **[@satohshi](https://www.adventofts.com/events/2024/22/solutions/2965)**
 
-> :mega: **Docs**
-
-1. **[@user](url)**
+2. **[@teamchong](https://www.adventofts.com/events/2024/22/solutions/3062)**
 
 <!-- line -->
 <!-- line -->
@@ -400,11 +398,9 @@ Main information ...
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
+1. **[@satohshi](https://www.adventofts.com/events/2024/23/solutions/2964)**
 
-> :mega: **Docs**
-
-1. **[@user](url)**
+2. **[@kana-sama](https://www.adventofts.com/events/2024/23/solutions/3061)**
 
 <!-- line -->
 <!-- line -->
