@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "math-n-geometry": "bun run --watch src/neetcode/math-n-geometry/pow.ts"
+    "math-n-geometry": "bun run --watch src/neetcode/math-n-geometry/multiply-strings.ts"
   },
   "devDependencies": {
     "@type-challenges/utils": "0.1.1",
