@@ -1,3 +1,5 @@
+import { LogTests } from "@/utils/log-tests";
+
 // @neetcode code
 function setZeroes(matrix: number[][]): void {
   let rows: number = matrix.length;
@@ -40,6 +42,7 @@ function setZeroes(matrix: number[][]): void {
   }
 }
 
+// test zone
 const matrix1: number[][] = [
   [1, 1, 1],
   [1, 0, 1],
@@ -52,5 +55,12 @@ const matrix2: number[][] = [
   [1, 3, 1, 5],
 ];
 
-setZeroes(matrix1);
-setZeroes(matrix2);
+const test1: void = setZeroes(matrix1);
+const test2: void = setZeroes(matrix2);
+
+const tests: void[] = [
+  test1,
+  test2,
+];
+
+LogTests(tests);

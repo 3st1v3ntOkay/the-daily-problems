@@ -1,3 +1,5 @@
+import { LogTests } from "@/utils/log-tests";
+
 // @me + not very good solution
 function myPow(x: number, n: number): number {
   if (n <= 0) {
@@ -53,6 +55,7 @@ function myPowAlt2(x: number, n: number): number {
   return (n >= 0) ? output : 1 / output;
 }
 
+// test zone
 const input1: number = 2.00000;
 const n1: number = 10;
 
@@ -66,8 +69,10 @@ const test1 = myPowAlt1(input1, n1);
 const test2 = myPowAlt1(input2, n2);
 const test3 = myPowAlt1(input3, n3);
 
-console.log("running ...");
+const tests: number[] = [
+  test1,
+  test2,
+  test3
+];
 
-console.log(test1);
-console.log(test2);
-console.log(test3);
+LogTests(tests);

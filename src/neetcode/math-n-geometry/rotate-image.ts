@@ -1,3 +1,5 @@
+import { LogTests } from "@/utils/log-tests";
+
 // @neetcode code
 function rotate(matrix: number[][]): void {
   let left: number = 0;
@@ -53,6 +55,7 @@ function rotateAlt2(matrix: number[][]): void {
   }
 }
 
+// test zone
 const matrix1: number[][] = [
   [1, 2, 3],
   [4, 5, 6],
@@ -66,11 +69,22 @@ const matrix2: number[][] = [
   [15, 14, 12, 16],
 ];
 
-rotate(matrix1);
-rotate(matrix2);
+const test1: void = rotate(matrix1);
+const test2: void = rotate(matrix2);
 
-rotateAlt1(matrix1);
-rotateAlt1(matrix2);
+const test3: void = rotateAlt1(matrix1);
+const test4: void = rotateAlt1(matrix2);
 
-rotateAlt2(matrix1);
-rotateAlt2(matrix2);
+const test5: void = rotateAlt2(matrix1);
+const test6: void = rotateAlt2(matrix2);
+
+const tests: void[] = [
+  test1,
+  test2,
+  test3,
+  test4,
+  test5,
+  test6,
+];
+
+LogTests(tests);

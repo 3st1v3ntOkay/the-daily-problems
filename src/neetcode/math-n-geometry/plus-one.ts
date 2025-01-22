@@ -1,3 +1,5 @@
+import { LogTests } from "@/utils/log-tests";
+
 // my solution fails for big numbers, i should use bigint instead of number
 function myPlusOne(digits: number[]): number[] {
   let newDigits: string = "";
@@ -35,6 +37,13 @@ function plusOne(digits: number[]): number[] {
   }
 }
 
+// test zone
 const input: number[] = [4, 3, 2, 1];
 
-console.log(plusOne(input));
+const test1: number[] = plusOne(input);
+
+const tests: number[][] = [
+  test1,
+];
+
+LogTests(tests);

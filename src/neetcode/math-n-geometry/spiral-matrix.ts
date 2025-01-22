@@ -1,3 +1,5 @@
+import { LogTests } from "@/utils/log-tests";
+
 // @neetcode code
 function spiralOrder(matrix: number[][]): number[] {
   let output: number[] = [];
@@ -40,6 +42,7 @@ function spiralOrder(matrix: number[][]): number[] {
   return output;
 }
 
+// test zone
 const matrix1: number[][] = [
   [1, 2, 3],
   [4, 5, 6],
@@ -52,5 +55,12 @@ const matrix2: number[][] = [
   [9, 10, 11, 12],
 ];
 
-spiralOrder(matrix1)
-spiralOrder(matrix2)
+const test1: number[] = spiralOrder(matrix1)
+const test2: number[] = spiralOrder(matrix2)
+
+const tests: number[][] = [
+  test1,
+  test2,
+];
+
+LogTests(tests);

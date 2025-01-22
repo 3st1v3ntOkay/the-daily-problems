@@ -1,3 +1,5 @@
+import { LogTests } from "@/utils/log-tests";
+
 // @NeetCode
 function isHappy(n: number): boolean {
   const visit = new Set<number>();
@@ -53,7 +55,15 @@ function isHappyAlt(n: number): boolean {
   return slow === 1;
 }
 
+// test zone
 const input: number = 19;
 
-console.log(isHappy(input));
-console.log(isHappyAlt(input));
+const test1: boolean = isHappy(input);
+const test2: boolean = isHappyAlt(input);
+
+const tests: boolean[] = [
+  test1,
+  test2,
+];
+
+LogTests(tests);
