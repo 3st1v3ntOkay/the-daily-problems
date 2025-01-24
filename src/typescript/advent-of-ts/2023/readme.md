@@ -64,15 +64,53 @@ Main information ...
 <!-- line -->
 <!-- line -->
 
-## 06. name
+## 06. Filtering The Children (part 1)
 
 Main information ...
 
-- **[name](https://www.adventofts.com/events/2023/5)** advent ts link
+- **[Filtering The Children (part 1)](https://www.adventofts.com/events/2023/6)** advent ts link
 
 > :mega: **Other Solutions**
 
-1. **[@user](url)**
+1. **[@DimitarNestorov](https://www.adventofts.com/events/2023/6/solutions/2924)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 07. Filtering The Children (part 2)
+
+Main information ...
+
+- **[Filtering The Children (part 2)](https://www.adventofts.com/events/2023/7)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 08. Filtering The Children (part 3)
+
+Main information ...
+
+- **[Filtering The Children (part 3)](https://www.adventofts.com/events/2023/8)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@UeberTimei](https://www.adventofts.com/events/2023/8/solutions/1199?page=2)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 09. ???
+
+Main information ...
+
+- **[???](https://www.adventofts.com/events/2023/9)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@???](???)** advent ts link
 
 <!-- line -->
 <!-- line -->
