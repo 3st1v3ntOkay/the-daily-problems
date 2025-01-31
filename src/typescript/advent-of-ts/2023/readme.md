@@ -102,15 +102,57 @@ Main information ...
 <!-- line -->
 <!-- line -->
 
-## 09. ???
+## 09. Is Santa Dyslexic?
 
 Main information ...
 
-- **[???](https://www.adventofts.com/events/2023/9)** advent ts link
+- **[Is Santa Dyslexic?](https://www.adventofts.com/events/2023/9)** advent ts link
 
 > :mega: **Other Solutions**
 
-1. **[@???](???)** advent ts link
+1. **[@UeberTimei](https://www.adventofts.com/events/2023/9/solutions/1201)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 10. Christmas Street Suffix Tester
+
+Main information ...
+
+- **[Christmas Street Suffix Tester](https://www.adventofts.com/events/2023/10)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@SameerJS6](https://www.adventofts.com/events/2023/10/solutions/2832?page=1)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 11. ???
+
+Main information ...
+
+- **[???](url)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@](url)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 12. ???
+
+Main information ...
+
+- **[???](url)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@](url)** advent ts link
 
 <!-- line -->
 <!-- line -->
