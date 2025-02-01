@@ -9,11 +9,12 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "math-n-geometry": "bun run --watch src/neetcode/math-n-geometry/multiply-strings.ts"
+    "math-n-geometry": "bun run --watch src/neetcode/math-n-geometry/detect-squares.ts",
+    "bit-manipulation": "bun run --watch src/neetcode/bit-manipulation/number-of-1-bits.ts"
   },
   "devDependencies": {
     "@type-challenges/utils": "0.1.1",
-    "@types/bun": "1.2.1",
+    "@types/bun": "1.2.2",
     "@types/figlet": "1.7.0",
     "typescript": "5.7.3",
     "vite": "6.0.11",
