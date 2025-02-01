@@ -75,3 +75,43 @@ Main information ...
 <!-- line -->
 <!-- line -->
 <!-- line -->
+
+## 43. Multiply Strings
+
+Main information ...
+
+- [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) leetcode link
+
+- [Multiply Strings](https://neetcode.io/solutions/multiply-strings) neetcode link
+
+- [Multiply Strings](https://youtu.be/1vZswirL8Y8) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[@user](url)**
+
+- **[@user](url)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 2013. Detect Squares
+
+Main information ...
+
+- [Detect Squares](https://leetcode.com/problems/detect-squares/description/) leetcode link
+
+- [Detect Squares](https://neetcode.io/solutions/detect-squares) neetcode link
+
+- [Detect Squares](https://youtu.be/bahebearrDc) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[@user](url)**
+
+- **[@user](url)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
