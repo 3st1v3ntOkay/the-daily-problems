@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "math-n-geometry": "bun run --watch src/neetcode/math-n-geometry/detect-squares.ts",
-    "bit-manipulation": "bun run --watch src/neetcode/bit-manipulation/counting-bits.ts"
+    "bit-manipulation": "bun run --watch src/neetcode/bit-manipulation/reverse-integer.ts"
   },
   "devDependencies": {
     "@type-challenges/utils": "0.1.1",
