@@ -42,9 +42,9 @@ Main information ...
 
 - [Counting Bits](https://leetcode.com/problems/counting-bits/description/) leetcode link
 
-- [Counting Bits](url) neetcode link
+- [Counting Bits](https://neetcode.io/solutions/counting-bits) neetcode link
 
-- [Counting Bits](url) neetcode's youtube video link
+- [Counting Bits](https://youtu.be/RyBM56RIWrM) neetcode's youtube video link
 
 > :mega: **Other Solutions**
 
