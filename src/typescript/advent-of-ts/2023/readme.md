@@ -130,11 +130,25 @@ Main information ...
 <!-- line -->
 <!-- line -->
 
-## 11. ???
+## 11. Protect the List
 
 Main information ...
 
-- **[???](url)** advent ts link
+- **[Protect the List](https://www.adventofts.com/events/2023/11)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@yangxin9003](https://www.adventofts.com/events/2023/11/solutions/1223)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 12. Find Santa
+
+Main information ...
+
+- **[Find Santa](https://www.adventofts.com/events/2023/12)** advent ts link
 
 > :mega: **Other Solutions**
 
@@ -144,15 +158,15 @@ Main information ...
 <!-- line -->
 <!-- line -->
 
-## 12. ???
+## 13. Count the Days
 
 Main information ...
 
-- **[???](url)** advent ts link
+- **[Count the Days](https://www.adventofts.com/events/2023/13)** advent ts link
 
 > :mega: **Other Solutions**
 
-1. **[@](url)** advent ts link
+1. **[@satohshi](https://www.adventofts.com/events/2023/13/solutions/2915)** advent ts link
 
 <!-- line -->
 <!-- line -->
