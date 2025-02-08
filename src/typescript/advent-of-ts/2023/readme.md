@@ -171,3 +171,49 @@ Main information ...
 <!-- line -->
 <!-- line -->
 <!-- line -->
+
+## 14. Naughty List Decipher
+
+Main information ...
+
+- **[Naughty List Decipher](https://www.adventofts.com/events/2023/14)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@yangxin9003](https://www.adventofts.com/events/2023/14/solutions/1219)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 15. Box The Toys
+
+Main information ...
+
+- **[Box The Toys!](https://www.adventofts.com/events/2023/15)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@vipulpathak113](https://www.adventofts.com/events/2023/15/solutions/1200?page=2)** advent ts link
+
+2. **[@mahdi-farnia](https://www.adventofts.com/events/2023/15/solutions/1228?page=2)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 16. Find Santa (part 2)
+
+Main information ...
+
+- **[Find Santa (part 2)](https://www.adventofts.com/events/2023/16)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@santoshi](https://www.adventofts.com/events/2023/16/solutions/1655)** advent ts link
+
+2. **[@joshIsCoding](https://www.adventofts.com/events/2023/16/solutions/2446)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
