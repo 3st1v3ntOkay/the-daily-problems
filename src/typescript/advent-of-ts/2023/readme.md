@@ -217,3 +217,47 @@ Main information ...
 <!-- line -->
 <!-- line -->
 <!-- line -->
+
+## 17. Rock, Paper, Scissors
+
+Main information ...
+
+- **[Rock, Paper, Scissors](https://www.adventofts.com/events/2023/17)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@ProdigySim](https://www.adventofts.com/events/2023/17/solutions/1212)** advent ts link
+
+2. **[@dan-lee](https://www.adventofts.com/events/2023/17/solutions/2836)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 18. Santa's Remaining Deliveries
+
+Main information ...
+
+- **[Santa's Remaining Deliveries](https://www.adventofts.com/events/2023/18)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@user](url)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 19. Help Santa Embezzle Funds
+
+Main information ...
+
+- **[Help Santa Embezzle Funds](https://www.adventofts.com/events/2023/19)** advent ts link
+
+> :mega: **Other Solutions**
+
+1. **[@santoshi](https://www.adventofts.com/events/2023/19/solutions/1659)** advent ts link
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
