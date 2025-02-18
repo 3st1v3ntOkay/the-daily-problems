@@ -1,0 +1,117 @@
+# Math and Geometry Algorithms
+
+## 202. Happy Number
+
+Main information ...
+
+- [Happy Number](https://leetcode.com/problems/happy-number/description/) leetcode link
+
+- [Happy Number](https://neetcode.io/solutions/happy-number) neetcode link
+
+- [Happy Number](https://youtu.be/ljz85bxOYJ0) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[Aaron Jeongwoo Kim](https://leetcode.com/problems/happy-number/solutions/2797909/three-simplest-solutions-floyds-cycle-fi-lzek)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 66. Plus One
+
+Main information ...
+
+- [Plus One](https://leetcode.com/problems/plus-one/description/) leetcode link
+
+- [Plus One](https://neetcode.io/solutions/plus-one) neetcode link
+
+- [Plus One](https://youtu.be/jIaA8boiG1s) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[Aaron Jeongwoo Kim](https://leetcode.com/problems/happy-number/solutions/2797909/three-simplest-solutions-floyds-cycle-fi-lzek)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 48. Rotate Image
+
+Main information ...
+
+- [Rotate Image](https://leetcode.com/problems/rotate-image/description/) leetcode link
+
+- [Rotate Image](https://neetcode.io/solutions/rotate-image) neetcode link
+
+- [Rotate Image](https://youtu.be/fMSJSS7eO1w) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[@user](url)**
+
+- **[@user](url)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 73. Set Matrix Zeroes
+
+Main information ...
+
+- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) leetcode link
+
+- [Set Matrix Zeroes](https://neetcode.io/solutions/set-matrix-zeroes) neetcode link
+
+- [Set Matrix Zeroes](https://youtu.be/T41rL0L3Pnw) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[@user](url)**
+
+- **[@user](url)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 43. Multiply Strings
+
+Main information ...
+
+- [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) leetcode link
+
+- [Multiply Strings](https://neetcode.io/solutions/multiply-strings) neetcode link
+
+- [Multiply Strings](https://youtu.be/1vZswirL8Y8) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[@user](url)**
+
+- **[@user](url)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->
+
+## 2013. Detect Squares
+
+Main information ...
+
+- [Detect Squares](https://leetcode.com/problems/detect-squares/description/) leetcode link
+
+- [Detect Squares](https://neetcode.io/solutions/detect-squares) neetcode link
+
+- [Detect Squares](https://youtu.be/bahebearrDc) neetcode's youtube video link
+
+> :mega: **Other Solutions**
+
+- **[@user](url)**
+
+- **[@user](url)**
+
+<!-- line -->
+<!-- line -->
+<!-- line -->

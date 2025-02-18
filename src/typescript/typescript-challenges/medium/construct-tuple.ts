@@ -1,0 +1,17 @@
+type ConstructTuple<
+  L extends number,
+  Stop extends unknown[] = []
+> =
+  L extends Stop["length"]
+  ? Stop
+  : ConstructTuple<L, [...Stop, unknown]>;
+
+import type { Equal, Expect } from '@type-challenges/utils'
+
+type cases = [
+  Expect<Equal<ConstructTuple<0>, []>>,
+  Expect<Equal<ConstructTuple<2>, [unknown, unknown]>>,
+  Expect<Equal<ConstructTuple<999>['length'], 999>>,
+  // @ts-expect-error
+  Expect<Equal<ConstructTuple<1000>['length'], 1000>>,
+]
