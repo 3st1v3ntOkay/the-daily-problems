@@ -17,8 +17,8 @@
     "@types/bun": "1.2.2",
     "@types/figlet": "1.7.0",
     "typescript": "5.7.3",
-    "vite": "6.0.11",
-    "vitest": "3.0.5"
+    "vite": "6.1.0",
+    "vitest": "3.0.6"
   },
   "dependencies": {
     "figlet": "1.8.0"
