@@ -23,5 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
-# My own config
+# my folders
 .vs
+
+# my files
+old-doc.md
