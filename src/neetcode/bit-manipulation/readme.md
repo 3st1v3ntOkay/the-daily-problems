@@ -60,9 +60,9 @@ Main information ...
 
 - [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) leetcode link
 
-- [Reverse Bits](url) neetcode link
+- [Reverse Bits](https://neetcode.io/solutions/reverse-bits) neetcode link
 
-- [Reverse Bits](url) neetcode's youtube video link
+- [Reverse Bits](https://youtu.be/UcoN6UjAI64) neetcode's youtube video link
 
 > :mega: **Other Solutions**
 
@@ -78,9 +78,9 @@ Main information ...
 
 - [Missing Number](https://leetcode.com/problems/missing-number/description/) leetcode link
 
-- [Missing Number](url) neetcode link
+- [Missing Number](https://neetcode.io/solutions/missing-number) neetcode link
 
-- [Missing Number](url) neetcode's youtube video link
+- [Missing Number](https://youtu.be/WnPLSRLSANE) neetcode's youtube video link
 
 > :mega: **Other Solutions**
 
