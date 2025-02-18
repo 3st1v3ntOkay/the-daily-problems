@@ -9,9 +9,9 @@
 **Spanish**
 </br>
 
-El proposito de este proyecto es pricipalmente almacenar algoritmos y soluciones algoritmicas de problemas diarios que uno puede llegar a tener.
+Planeando una gran actualizacion.
 
 **English**
 </br>
 
-The purpose of this project is mainly to store algorithms and algorithmic solutions to everyday problems one may encounter.
+Planning a big update.
